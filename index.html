@@ -1,0 +1,2749 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0a0f1e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="StudyTrack">
+<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjogIlN0dWR5VHJhY2siLCAic2hvcnRfbmFtZSI6ICJTdHVkeVRyYWNrIiwgImRlc2NyaXB0aW9uIjogIuCmquCmoeCmvOCmvuCmtuCni+CmqOCmvuCmsCDgpp/gpr7gprDgp43gppfgp4fgpp8g4Kaf4KeN4Kaw4KeN4Kav4Ka+4KaV4Ka+4KawIiwgInN0YXJ0X3VybCI6ICIuL2luZGV4Lmh0bWwiLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgImJhY2tncm91bmRfY29sb3IiOiAiIzA4MDkwZiIsICJ0aGVtZV9jb2xvciI6ICIjMDgwOTBmIiwgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0LXByaW1hcnkiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxOTInIGhlaWdodD0nMTkyJyB2aWV3Qm94PScwIDAgMTkyIDE5MiclM0UlM0NyZWN0IHdpZHRoPScxOTInIGhlaWdodD0nMTkyJyByeD0nMzgnIGZpbGw9JyUyMzA4MDkwZicvJTNFJTNDY2lyY2xlIGN4PSc5NicgY3k9JzgyJyByPSc0NicgZmlsbD0nbm9uZScgc3Ryb2tlPSclMjMzOGJkZjgnIHN0cm9rZS13aWR0aD0nOScvJTNFJTNDY2lyY2xlIGN4PSc5NicgY3k9JzgyJyByPScyOCcgZmlsbD0nbm9uZScgc3Ryb2tlPSclMjMzOGJkZjgnIHN0cm9rZS13aWR0aD0nNycvJTNFJTNDY2lyY2xlIGN4PSc5NicgY3k9JzgyJyByPScxMScgZmlsbD0nJTIzMzhiZGY4Jy8lM0UlM0N0ZXh0IHg9Jzk2JyB5PScxNTgnIGZvbnQtc2l6ZT0nMjAnIHRleHQtYW5jaG9yPSdtaWRkbGUnIGZpbGw9JyUyMzM4YmRmOCcgZm9udC1mYW1pbHk9J3NhbnMtc2VyaWYnIGZvbnQtd2VpZ2h0PSdib2xkJyUzRVN0dWR5VHJhY2slM0MvdGV4dCUzRSUzQy9zdmclM0UiLCAic2l6ZXMiOiAiMTkyeDE5MiIsICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiLCAicHVycG9zZSI6ICJhbnkgbWFza2FibGUifSwgeyJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1MTInIGhlaWdodD0nNTEyJyB2aWV3Qm94PScwIDAgNTEyIDUxMiclM0UlM0NyZWN0IHdpZHRoPSc1MTInIGhlaWdodD0nNTEyJyByeD0nMTAwJyBmaWxsPSclMjMwODA5MGYnLyUzRSUzQ2NpcmNsZSBjeD0nMjU2JyBjeT0nMjE1JyByPScxMjInIGZpbGw9J25vbmUnIHN0cm9rZT0nJTIzMzhiZGY4JyBzdHJva2Utd2lkdGg9JzIyJy8lM0UlM0NjaXJjbGUgY3g9JzI1NicgY3k9JzIxNScgcj0nNzUnIGZpbGw9J25vbmUnIHN0cm9rZT0nJTIzMzhiZGY4JyBzdHJva2Utd2lkdGg9JzE3Jy8lM0UlM0NjaXJjbGUgY3g9JzI1NicgY3k9JzIxNScgcj0nMjknIGZpbGw9JyUyMzM4YmRmOCcvJTNFJTNDdGV4dCB4PScyNTYnIHk9JzQyMCcgZm9udC1zaXplPSc2MCcgdGV4dC1hbmNob3I9J21pZGRsZScgZmlsbD0nJTIzMzhiZGY4JyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC13ZWlnaHQ9J2JvbGQnJTNFU3R1ZHlUcmFjayUzQy90ZXh0JTNFJTNDL3N2ZyUzRSIsICJzaXplcyI6ICI1MTJ4NTEyIiwgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIsICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSJ9XX0=">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='38' fill='%2308090f'/%3E%3Ccircle cx='96' cy='82' r='46' fill='none' stroke='%2338bdf8' stroke-width='9'/%3E%3Ccircle cx='96' cy='82' r='28' fill='none' stroke='%2338bdf8' stroke-width='7'/%3E%3Ccircle cx='96' cy='82' r='11' fill='%2338bdf8'/%3E%3Ctext x='96' y='158' font-size='20' text-anchor='middle' fill='%2338bdf8' font-family='sans-serif' font-weight='bold'%3EStudyTrack%3C/text%3E%3C/svg%3E">
+<title>StudyTrack</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#08090f;--s1:#0e1120;--s2:#151928;
+  --border:rgba(255,255,255,0.07);
+  --text:#f1f5f9;--muted:#64748b;--dim:#334155;
+  --shadow:0 2px 12px rgba(0,0,0,0.4);
+  --physics:#38bdf8;--chemistry:#fb923c;--math:#a78bfa;
+  --biology:#4ade80;--bangla:#f472b6;--english:#fbbf24;
+  --green:#4ade80;--red:#f87171;--yellow:#fbbf24;
+}
+body.light{
+  --bg:#f0f4f8;--s1:#ffffff;--s2:#e8edf2;
+  --border:rgba(0,0,0,0.08);
+  --text:#1e293b;--muted:#64748b;--dim:#94a3b8;
+  --shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+body.light nav{background:rgba(240,244,248,0.92)}
+body.light .notif-banner{background:linear-gradient(135deg,#dbeafe,#eff6ff);border-color:rgba(56,189,248,0.4)}
+body.light .ring-bg{stroke:rgba(0,0,0,0.06)}
+body.light .step-val{background:rgba(0,0,0,0.04)}
+
+html,body{height:100%;overscroll-behavior:none}
+body{background:var(--bg);color:var(--text);font-family:'Hind Siliguri',sans-serif;min-height:100dvh;overflow:hidden;-webkit-tap-highlight-color:transparent;user-select:none;transition:background 0.3s,color 0.3s}
+
+.bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bg-fx::before{content:'';position:absolute;width:600px;height:600px;top:-200px;right:-200px;background:radial-gradient(circle,rgba(56,189,248,0.05),transparent 65%);animation:drift 12s ease-in-out infinite alternate}
+.bg-fx::after{content:'';position:absolute;width:500px;height:500px;bottom:-150px;left:-150px;background:radial-gradient(circle,rgba(167,139,250,0.05),transparent 65%);animation:drift 15s ease-in-out infinite alternate-reverse}
+@keyframes drift{0%{transform:translate(0,0)}100%{transform:translate(30px,30px)}}
+
+.app{position:relative;z-index:1;display:flex;flex-direction:column;height:100dvh;overflow:hidden;max-width:480px;margin:0 auto;box-sizing:border-box}
+
+/* NAV */
+nav{display:flex;background:rgba(8,9,15,0.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0 0.2rem;flex-shrink:0;overflow-x:auto;scrollbar-width:none;transition:background 0.3s}
+nav::-webkit-scrollbar{display:none}
+.nav-btn{flex-shrink:0;padding:0.75rem 0.8rem;font-size:0.68rem;font-weight:700;font-family:'Hind Siliguri',sans-serif;color:var(--muted);background:none;border:none;cursor:pointer;border-bottom:2px solid transparent;transition:all 0.2s;white-space:nowrap}
+.nav-btn.active{color:var(--text);border-bottom-color:var(--physics)}
+.nav-btn span{display:block;font-size:0.9rem;margin-bottom:2px;text-align:center}
+
+/* PAGES */
+.page{display:none;overflow-y:auto;padding:0 1rem 3rem;flex:1;scrollbar-width:none}
+.page.active{display:block}
+
+/* SUB-PAGE (drill-down) */
+.sub-page{display:none;overflow-y:auto;padding:0 1rem 3rem;flex:1;scrollbar-width:none}
+.sub-page.active{display:block}
+
+/* SUBJECT TABS */
+.subject-tabs{display:flex;gap:0.45rem;overflow-x:auto;scrollbar-width:none;margin-bottom:0.9rem;padding-bottom:2px}
+.subject-tabs::-webkit-scrollbar{display:none}
+.sub-tab{flex-shrink:0;padding:0.3rem 0.75rem;border-radius:999px;font-size:0.7rem;font-weight:700;cursor:pointer;border:1px solid transparent;font-family:'Hind Siliguri',sans-serif;transition:all 0.2s;background:var(--s1);color:var(--muted)}
+.sub-tab.active{color:#fff}
+
+/* CARD */
+.card{background:var(--s1);border:1px solid var(--border);border-radius:16px;margin-bottom:0.8rem;overflow:hidden;animation:fadeUp 0.3s ease;box-shadow:var(--shadow)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+.card-head{padding:0.85rem 0.9rem 0.65rem;display:flex;align-items:flex-start;justify-content:space-between;gap:0.5rem}
+.card-badge{font-size:0.58rem;font-weight:800;letter-spacing:0.1em;padding:0.12rem 0.5rem;border-radius:999px;white-space:nowrap;margin-top:3px;font-family:'Hind Siliguri',sans-serif}
+.card-chapter{font-size:0.92rem;font-weight:700;line-height:1.3;flex:1}
+.card-del{background:none;border:none;color:var(--dim);font-size:0.85rem;cursor:pointer;padding:2px;transition:color 0.2s;flex-shrink:0}
+
+/* CARD BODY - steps + ring */
+.card-body{padding:0 0.9rem 0.7rem;display:flex;gap:0.75rem;align-items:center}
+.ring-wrap{position:relative;width:54px;height:54px;flex-shrink:0}
+.ring-wrap svg{transform:rotate(-90deg)}
+.ring-bg{fill:none;stroke:rgba(255,255,255,0.05);stroke-width:5}
+.ring-fill{fill:none;stroke-width:5;stroke-linecap:round;transition:stroke-dashoffset 0.5s,stroke 0.3s}
+.ring-pct{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:0.68rem;font-weight:800;font-family:'Hind Siliguri',sans-serif}
+.steps{flex:1}
+.step-row{display:flex;align-items:center;gap:0.4rem;padding:0.2rem 1.1rem 0.2rem 0;cursor:pointer}
+.step-check{width:15px;height:15px;border-radius:4px;border:1.5px solid var(--dim);display:flex;align-items:center;justify-content:center;font-size:0.5rem;color:transparent;transition:all 0.2s;flex-shrink:0}
+.step-row.done .step-check{background:var(--green);border-color:var(--green);color:#000}
+.step-name{font-size:0.7rem;color:var(--muted);flex:1;transition:color 0.2s}
+.step-row.done .step-name{color:var(--green)}
+.step-val{font-size:0.62rem;color:var(--dim);background:rgba(255,255,255,0.04);border-radius:5px;padding:0.08rem 0.3rem;cursor:pointer;border:1px solid transparent;transition:all 0.2s}
+.step-val:hover{border-color:rgba(255,255,255,0.12);color:var(--text)}
+
+/* REVISION ROW */
+.revision-row{padding:0 0.9rem 0.7rem;display:flex;align-items:center;gap:0.6rem}
+.rev-label{font-size:0.7rem;color:var(--muted);font-weight:600}
+.rev-count{font-family:'Hind Siliguri',sans-serif;font-size:1rem;font-weight:800;color:var(--physics);min-width:28px;text-align:center}
+.rev-btn{width:28px;height:28px;border-radius:8px;border:none;cursor:pointer;font-size:1rem;font-weight:700;display:flex;align-items:center;justify-content:center;transition:transform 0.1s}
+.rev-btn:active{transform:scale(0.88)}
+.rev-plus{background:rgba(56,189,248,0.15);color:var(--physics);border:1px solid rgba(56,189,248,0.25)}
+.rev-minus{background:rgba(248,113,113,0.12);color:var(--red);border:1px solid rgba(248,113,113,0.2)}
+
+/* TIMERS SECTION */
+.timers-section{padding:0 0.9rem 0.7rem}
+.timer-row{display:grid;grid-template-columns:1fr 1fr;gap:0.55rem;margin-bottom:0.55rem}
+.timer-box{background:var(--s2);border:1px solid var(--border);border-radius:10px;padding:0.55rem 0.65rem}
+.t-label{font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase;margin-bottom:0.25rem}
+.t-val{font-size:0.9rem;font-weight:800;font-family:'Hind Siliguri',sans-serif;font-variant-numeric:tabular-nums}
+.t-val.cd{color:var(--physics)}.t-val.sw{color:var(--yellow)}
+.t-val.urgent{color:var(--red);animation:blink 1s infinite alternate}
+@keyframes blink{0%{opacity:1}100%{opacity:0.4}}
+.sw-btns{display:flex;gap:0.3rem;margin-top:0.35rem}
+.sw-btn{flex:1;border:none;border-radius:6px;padding:0.25rem 0;font-size:0.58rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;transition:transform 0.1s}
+.sw-btn:active{transform:scale(0.92)}
+.sw-s{background:rgba(74,222,128,0.12);color:var(--green);border:1px solid rgba(74,222,128,0.2)}
+.sw-p{background:rgba(251,191,36,0.12);color:var(--yellow);border:1px solid rgba(251,191,36,0.2)}
+.sw-r{background:rgba(248,113,113,0.1);color:var(--red);border:1px solid rgba(248,113,113,0.15)}
+
+/* TARGET TIMER */
+.target-timer-box{background:var(--s2);border:1px solid var(--border);border-radius:10px;padding:0.6rem 0.7rem}
+.tt-row{display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap}
+.tt-display{font-family:'Hind Siliguri',sans-serif;font-size:1rem;font-weight:800;color:var(--math);font-variant-numeric:tabular-nums;min-width:70px}
+.tt-inp{width:55px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.8rem;text-align:center;padding:0.2rem 0.3rem}
+.tt-inp:focus{outline:none;border-color:var(--math)}
+.tt-btn{border:none;border-radius:7px;padding:0.28rem 0.6rem;font-size:0.62rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;transition:transform 0.1s}
+.tt-btn:active{transform:scale(0.92)}
+.tt-start{background:rgba(167,139,250,0.15);color:var(--math);border:1px solid rgba(167,139,250,0.25)}
+.tt-stop{background:rgba(248,113,113,0.12);color:var(--red);border:1px solid rgba(248,113,113,0.2)}
+.tt-reset{background:rgba(100,116,139,0.12);color:var(--muted);border:1px solid rgba(100,116,139,0.2)}
+
+/* DEADLINE */
+.dl-row{padding:0 0.9rem 0.8rem;display:flex;gap:0.5rem}
+.dl-inp{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.73rem;padding:0.38rem 0.55rem}
+.dl-inp:focus{outline:none;border-color:var(--physics)}
+.dl-set{background:rgba(56,189,248,0.1);color:var(--physics);border:1px solid rgba(56,189,248,0.2);border-radius:8px;padding:0.38rem 0.65rem;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;white-space:nowrap}
+
+/* CARD SUB-OPTIONS (Note/File/Class) */
+.card-options{padding:0 0.9rem 0.85rem;display:flex;gap:0.5rem;flex-wrap:wrap}
+.opt-btn{display:flex;align-items:center;gap:0.4rem;background:var(--s2);border:1px solid var(--border);border-radius:10px;padding:0.45rem 0.75rem;cursor:pointer;transition:all 0.2s;font-size:0.72rem;font-weight:700;color:var(--muted)}
+.opt-btn:hover,.opt-btn:active{border-color:var(--physics);color:var(--text)}
+.opt-icon{font-size:0.85rem}
+.opt-badge{background:rgba(56,189,248,0.15);color:var(--physics);border-radius:999px;padding:0.05rem 0.4rem;font-size:0.6rem;font-weight:700;font-family:'Hind Siliguri',sans-serif}
+
+/* DONE BANNER */
+.done-banner{display:none;margin:0 0.9rem 0.8rem;background:rgba(74,222,128,0.08);border:1px solid rgba(74,222,128,0.2);border-radius:8px;padding:0.45rem;text-align:center;font-size:0.75rem;color:var(--green);font-weight:600}
+.card.complete .done-banner{display:block}
+
+/* FAB */
+.fab{position:fixed;bottom:1.4rem;right:1rem;z-index:100;width:50px;height:50px;border-radius:50%;border:none;font-size:1.35rem;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,0,0,0.5);transition:transform 0.15s}
+.fab:active{transform:scale(0.9)}
+
+/* SUB-OPTION PANEL */
+.panel-header{display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem}
+.panel-back{background:none;border:none;color:var(--physics);font-size:1.1rem;cursor:pointer;padding:0.2rem;display:flex;align-items:center}
+.panel-title{font-family:'Hind Siliguri',sans-serif;font-size:1rem;font-weight:800}
+.panel-sub{font-size:0.7rem;color:var(--muted);font-weight:600}
+
+/* NOTE PANEL */
+.note-editor{width:100%;min-height:200px;background:var(--s1);border:1px solid var(--border);border-radius:12px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.88rem;padding:0.8rem;resize:none;line-height:1.7;transition:border-color 0.2s}
+.note-editor:focus{outline:none;border-color:var(--physics)}
+.share-btn{display:flex;align-items:center;gap:0.4rem;background:linear-gradient(135deg,var(--physics),#0ea5e9);color:#000;border:none;border-radius:10px;padding:0.55rem 1rem;font-size:0.78rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;margin-top:0.7rem;transition:opacity 0.15s}
+.share-btn:active{opacity:0.8}
+
+/* FILE/CLASS LIST ITEMS */
+.link-item{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:0.7rem 0.85rem;margin-bottom:0.5rem;animation:fadeUp 0.25s ease}
+.link-item-head{display:flex;align-items:center;gap:0.6rem}
+.link-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0}
+.link-title{flex:1;font-size:0.83rem;font-weight:700;color:var(--text)}
+.link-actions{display:flex;gap:0.35rem}
+.link-btn{width:28px;height:28px;border-radius:7px;border:none;cursor:pointer;font-size:0.75rem;display:flex;align-items:center;justify-content:center;transition:transform 0.1s}
+.link-btn:active{transform:scale(0.88)}
+.link-open{background:rgba(56,189,248,0.12);color:var(--physics);border:1px solid rgba(56,189,248,0.2)}
+.link-share{background:rgba(74,222,128,0.12);color:var(--green);border:1px solid rgba(74,222,128,0.2)}
+.link-del{background:rgba(248,113,113,0.1);color:var(--red);border:1px solid rgba(248,113,113,0.15)}
+.link-url{font-size:0.62rem;color:var(--muted);margin-top:3px;word-break:break-all;display:none}
+
+/* ADD LINK FORM */
+.add-link-form{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:0.8rem;margin-bottom:1rem}
+.add-link-form input{width:100%;background:var(--s2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.82rem;padding:0.5rem 0.7rem;margin-bottom:0.5rem;display:block}
+.add-link-form input:focus{outline:none;border-color:var(--physics)}
+.add-link-btn{background:var(--physics);color:#000;border:none;border-radius:8px;padding:0.45rem 1rem;font-size:0.78rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+
+/* DAILY */
+.daily-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:0.9rem}
+.date-label{font-family:'Hind Siliguri',sans-serif;font-size:0.88rem;font-weight:800}
+.day-nav button{background:var(--s1);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:0.28rem 0.55rem;cursor:pointer;font-size:0.78rem;margin-left:0.3rem}
+.daily-inp-row{display:flex;gap:0.5rem;margin-bottom:0.9rem}
+.daily-inp{flex:1;background:var(--s1);border:1px solid var(--border);border-radius:10px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.83rem;padding:0.55rem 0.75rem}
+.daily-inp:focus{outline:none;border-color:var(--physics)}
+.daily-add-btn{background:var(--physics);color:#000;border:none;border-radius:10px;padding:0.55rem 0.85rem;font-weight:700;font-size:0.78rem;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+.daily-item{background:var(--s1);border:1px solid var(--border);border-radius:11px;padding:0.65rem 0.85rem;margin-bottom:0.45rem;display:flex;align-items:center;gap:0.65rem;animation:fadeUp 0.22s ease}
+.daily-cb{width:19px;height:19px;border-radius:5px;border:2px solid var(--dim);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.2s;flex-shrink:0;font-size:0.65rem;color:transparent}
+.daily-item.done .daily-cb{background:var(--green);border-color:var(--green);color:#000}
+.daily-text{flex:1;font-size:0.83rem;transition:all 0.2s}
+.daily-item.done .daily-text{text-decoration:line-through;color:var(--muted)}
+.daily-del{background:none;border:none;color:var(--dim);cursor:pointer;font-size:0.82rem}
+
+/* GRAPH */
+.graph-wrap{background:var(--s1);border:1px solid var(--border);border-radius:14px;padding:0.9rem;margin-bottom:0.9rem}
+.graph-title{font-family:'Hind Siliguri',sans-serif;font-size:0.73rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.9rem}
+canvas{width:100%!important;border-radius:6px}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.55rem;margin-bottom:0.9rem}
+.stat-box{background:var(--s1);border:1px solid var(--border);border-radius:11px;padding:0.75rem}
+.stat-num{font-family:'Hind Siliguri',sans-serif;font-size:1.5rem;font-weight:800}
+.stat-lbl{font-size:0.62rem;color:var(--muted);margin-top:2px}
+.log-item{background:var(--s1);border:1px solid var(--border);border-radius:9px;padding:0.6rem 0.75rem;margin-bottom:0.38rem;display:flex;gap:0.55rem;align-items:center}
+.log-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.log-info{flex:1}
+.log-title-t{font-size:0.75rem;font-weight:600}
+.log-sub{font-size:0.62rem;color:var(--muted);margin-top:1px}
+.log-time{font-family:'Hind Siliguri',sans-serif;font-size:0.75rem;font-weight:700;color:var(--yellow)}
+
+/* SETTINGS */
+.settings-group{background:var(--s1);border:1px solid var(--border);border-radius:14px;margin-bottom:0.9rem;overflow:hidden}
+.settings-group-title{font-family:'Hind Siliguri',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;padding:0.75rem 0.9rem 0.35rem}
+.setting-row{display:flex;align-items:center;justify-content:space-between;padding:0.7rem 0.9rem;border-top:1px solid var(--border);gap:0.7rem}
+.setting-label{font-size:0.83rem;font-weight:600}
+.setting-sub{font-size:0.67rem;color:var(--muted);margin-top:2px}
+.toggle{position:relative;width:42px;height:23px;flex-shrink:0}
+.toggle input{opacity:0;width:0;height:0;position:absolute}
+.toggle-slider{position:absolute;inset:0;background:var(--dim);border-radius:999px;cursor:pointer;transition:background 0.25s}
+.toggle-slider::before{content:'';position:absolute;width:17px;height:17px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform 0.25s;box-shadow:0 1px 4px rgba(0,0,0,0.3)}
+.toggle input:checked~.toggle-slider{background:var(--physics)}
+.toggle input:checked~.toggle-slider::before{transform:translateX(19px)}
+.setting-select{background:var(--s2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.78rem;padding:0.3rem 0.55rem;cursor:pointer}
+.setting-select:focus{outline:none;border-color:var(--physics)}
+.setting-select option{background:var(--s1)}
+.notif-msg-area{padding:0.7rem 0.9rem;border-top:1px solid var(--border)}
+.notif-msg-area textarea{width:100%;background:var(--s2);border:1px solid var(--border);border-radius:9px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.8rem;padding:0.55rem 0.7rem;resize:none;height:75px;line-height:1.5}
+.notif-msg-area textarea:focus{outline:none;border-color:var(--physics)}
+.save-notif-btn{margin-top:0.45rem;background:var(--physics);color:#000;border:none;border-radius:7px;padding:0.4rem 0.9rem;font-size:0.75rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+.voice-row{display:flex;align-items:center;gap:0.55rem;padding:0.7rem 0.9rem;border-top:1px solid var(--border)}
+.voice-inp{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.78rem;padding:0.3rem 0.55rem}
+.voice-inp:focus{outline:none;border-color:var(--physics)}
+.voice-test-btn{background:rgba(167,139,250,0.12);color:var(--math);border:1px solid rgba(167,139,250,0.25);border-radius:7px;padding:0.3rem 0.65rem;font-size:0.72rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;white-space:nowrap}
+
+/* MODALS */
+.overlay{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,0.75);backdrop-filter:blur(8px);display:flex;align-items:flex-end;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.25s}
+.overlay.open{opacity:1;pointer-events:all}
+.overlay.center{align-items:center}
+.modal{background:var(--s1);border:1px solid var(--border);border-radius:20px 20px 0 0;padding:1.3rem 1.1rem 2rem;width:100%;max-width:480px;transform:translateY(30px);transition:transform 0.3s}
+.overlay.open .modal{transform:translateY(0)}
+.modal-center{border-radius:15px;max-width:320px;width:calc(100% - 2rem);margin:auto;transform:scale(0.92);transition:transform 0.25s}
+.overlay.center.open .modal-center{transform:scale(1)}
+.modal-title{font-family:'Hind Siliguri',sans-serif;font-size:0.92rem;font-weight:800;margin-bottom:1rem}
+.field{margin-bottom:0.85rem}
+.field label{display:block;font-size:0.65rem;font-weight:700;color:var(--muted);margin-bottom:0.28rem;letter-spacing:0.08em;text-transform:uppercase}
+.field input,.field select,.field textarea{width:100%;background:var(--s2);border:1px solid var(--border);border-radius:9px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.83rem;padding:0.55rem 0.75rem}
+.field textarea{resize:vertical;min-height:75px;line-height:1.5}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--physics)}
+.field select option{background:var(--s1)}
+.modal-btns{display:flex;gap:0.55rem;margin-top:0.9rem}
+.m-cancel{flex:1;background:rgba(255,255,255,0.05);color:var(--muted);border:1px solid var(--border);border-radius:9px;padding:0.55rem;font-size:0.8rem;font-weight:600;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+.m-save{flex:2;background:linear-gradient(135deg,var(--physics),#0ea5e9);color:#fff;border:none;border-radius:9px;padding:0.55rem;font-size:0.8rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+.c-inp{width:100%;background:var(--s2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:1.2rem;font-weight:700;text-align:center;padding:0.45rem;margin-bottom:0.65rem}
+.c-inp:focus{outline:none;border-color:var(--physics)}
+
+/* NOTIF BANNER */
+.notif-banner{position:fixed;top:0;left:0;right:0;z-index:300;background:linear-gradient(135deg,#1e3a5f,#0e2a45);border-bottom:1px solid rgba(56,189,248,0.3);padding:0.75rem 1.1rem;display:flex;align-items:center;gap:0.75rem;transform:translateY(-100%);transition:transform 0.4s ease}
+.notif-banner.show{transform:translateY(0)}
+.notif-text{flex:1;font-size:0.78rem}
+.notif-text strong{display:block;color:var(--physics)}
+.notif-close{background:none;border:none;color:var(--muted);font-size:1rem;cursor:pointer}
+
+/* ALARM OVERLAY */
+.alarm-overlay{position:fixed;inset:0;z-index:500;background:rgba(0,0,0,0.85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;display:none}
+.alarm-overlay.show{display:flex;animation:fadeUp 0.3s ease}
+.alarm-text{font-family:'Hind Siliguri',sans-serif;font-size:1.5rem;font-weight:800;color:var(--math);text-align:center}
+.alarm-sub{font-size:0.9rem;color:var(--muted);text-align:center}
+.alarm-stop{background:var(--red);color:#fff;border:none;border-radius:12px;padding:0.7rem 2rem;font-size:0.9rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif}
+
+
+/* NOTIF TABS */
+.notif-tabs{display:flex;gap:0.45rem;overflow-x:auto;scrollbar-width:none;margin-bottom:0.9rem}
+.notif-tabs::-webkit-scrollbar{display:none}
+
+/* ALARM CARD */
+.alarm-card{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:0.75rem 0.9rem;margin-bottom:0.5rem;display:flex;align-items:center;gap:0.7rem;animation:fadeUp 0.25s ease}
+.alarm-time-big{font-family:'Hind Siliguri',sans-serif;font-size:1.3rem;font-weight:800;color:var(--yellow);min-width:70px}
+.alarm-info{flex:1}
+.alarm-label{font-size:0.82rem;font-weight:700}
+.alarm-meta{font-size:0.65rem;color:var(--muted);margin-top:2px}
+.alarm-toggle{margin-left:auto}
+
+/* COUNTDOWN CARD */
+.cd-card{background:var(--s1);border:1px solid var(--border);border-radius:14px;padding:0.85rem;margin-bottom:0.6rem;animation:fadeUp 0.3s ease}
+.cd-card-title{font-size:0.88rem;font-weight:700;margin-bottom:0.5rem;display:flex;justify-content:space-between;align-items:center}
+.cd-units{display:grid;grid-template-columns:repeat(4,1fr);gap:0.4rem}
+.cd-unit{background:var(--s2);border-radius:8px;padding:0.4rem 0.2rem;text-align:center}
+.cd-num{font-family:'Hind Siliguri',sans-serif;font-size:1.1rem;font-weight:800;color:var(--physics)}
+.cd-lbl{font-size:0.55rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em}
+
+/* NOTIF CENTER ITEM */
+.nc-form{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:0.85rem;margin-bottom:0.9rem}
+.nc-item{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:0.75rem 0.9rem;margin-bottom:0.5rem;animation:fadeUp 0.25s ease}
+.nc-item-head{display:flex;align-items:flex-start;justify-content:space-between;gap:0.5rem;margin-bottom:0.3rem}
+.nc-item-title{font-size:0.83rem;font-weight:700;flex:1}
+.nc-item-date{font-size:0.65rem;color:var(--physics);font-weight:600;white-space:nowrap}
+.nc-item-body{font-size:0.72rem;color:var(--muted);line-height:1.5}
+.nc-item-actions{display:flex;gap:0.4rem;margin-top:0.5rem}
+.nc-badge{display:inline-block;font-size:0.6rem;font-weight:700;padding:0.1rem 0.45rem;border-radius:999px;margin-right:0.3rem}
+.today-banner{background:rgba(74,222,128,0.1);border:1px solid rgba(74,222,128,0.25);border-radius:10px;padding:0.6rem 0.85rem;margin-bottom:0.7rem;font-size:0.8rem;color:var(--green);font-weight:600;display:none}
+.today-banner.show{display:block}
+
+
+/* CUSTOM STEPS */
+.steps-add-row{display:flex;align-items:center;gap:0.4rem;padding:0.3rem 0.9rem 0.7rem;border-top:1px solid var(--border)}
+.steps-add-inp{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:'Hind Siliguri',sans-serif;font-size:0.75rem;padding:0.3rem 0.6rem}
+.steps-add-inp:focus{outline:none;border-color:var(--physics)}
+.steps-add-btn{background:rgba(56,189,248,0.12);color:var(--physics);border:1px solid rgba(56,189,248,0.2);border-radius:7px;padding:0.3rem 0.6rem;font-size:0.72rem;font-weight:700;cursor:pointer;white-space:nowrap;font-family:'Hind Siliguri',sans-serif}
+.step-drag{cursor:grab;color:var(--dim);font-size:0.8rem;padding:0 0.2rem;touch-action:none}
+.step-del-btn{background:none;border:none;color:var(--dim);font-size:0.75rem;cursor:pointer;padding:0.1rem;flex-shrink:0;transition:color 0.2s}
+.step-del-btn:hover{color:var(--red)}
+.step-pct{font-size:0.58rem;color:var(--muted);min-width:28px;text-align:right}
+
+/* EMPTY */
+.empty{text-align:center;padding:2.5rem 1rem;color:var(--muted)}
+.empty .ico{font-size:2.3rem;margin-bottom:0.6rem}
+.empty p{font-size:0.8rem;line-height:1.6}
+
+/* SEC TITLE */
+.sec-title{font-family:'Hind Siliguri',sans-serif;font-size:0.75rem;font-weight:800;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase;margin-bottom:0.75rem}
+
+/* PROFILE SCREEN */
+.profile-screen{position:fixed;inset:0;z-index:600;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;transition:opacity 0.35s,transform 0.35s}
+.profile-screen.hide{opacity:0;pointer-events:none;transform:scale(0.97)}
+.profile-logo{font-size:2rem;font-weight:800;font-family:'Hind Siliguri',sans-serif;color:var(--physics);margin-bottom:0.2rem}
+.profile-sub{font-size:0.72rem;color:var(--muted);margin-bottom:1.8rem}
+.profile-cards{display:flex;flex-direction:column;gap:0.6rem;width:100%;max-width:360px;max-height:55vh;overflow-y:auto;scrollbar-width:none;padding-bottom:0.3rem}
+.profile-cards::-webkit-scrollbar{display:none}
+.p-card{background:var(--s1);border:1px solid var(--border);border-radius:16px;padding:0.85rem 1rem;display:flex;align-items:center;gap:0.8rem;cursor:pointer;transition:all 0.2s;animation:fadeUp 0.3s ease}
+.p-card:active{transform:scale(0.96)}
+.p-card.sel{border-color:var(--physics);background:rgba(56,189,248,0.06)}
+.p-avatar{width:44px;height:44px;border-radius:12px;background:rgba(56,189,248,0.1);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0}
+.p-info{flex:1}
+.p-name{font-size:0.9rem;font-weight:800;color:var(--text)}
+.p-meta{font-size:0.65rem;color:var(--muted);margin-top:2px}
+.p-del{background:none;border:none;color:var(--dim);font-size:0.85rem;cursor:pointer;padding:4px;flex-shrink:0;transition:color 0.2s}
+.p-del:hover{color:var(--red)}
+.p-add-btn{width:100%;max-width:360px;background:rgba(56,189,248,0.08);color:var(--physics);border:1.5px dashed rgba(56,189,248,0.3);border-radius:14px;padding:0.75rem;font-size:0.8rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;margin-top:0.3rem;transition:all 0.2s}
+.p-add-btn:active{transform:scale(0.97)}
+/* PROFILE inside settings */
+.active-profile-card{background:var(--s1);border:1px solid var(--border);border-radius:16px;padding:1rem;margin-bottom:0.9rem;display:flex;align-items:center;gap:0.9rem}
+.ap-avatar{width:54px;height:54px;border-radius:14px;background:rgba(56,189,248,0.1);display:flex;align-items:center;justify-content:center;font-size:1.8rem;flex-shrink:0;cursor:pointer;border:2px solid rgba(56,189,248,0.2)}
+.ap-name{font-size:0.95rem;font-weight:800}
+.ap-meta{font-size:0.68rem;color:var(--muted);margin-top:3px}
+/* EMOJI GRID */
+.emoji-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:0.4rem;margin-top:0.5rem}
+.emoji-opt{width:38px;height:38px;border-radius:9px;border:2px solid transparent;background:var(--s2);display:flex;align-items:center;justify-content:center;font-size:1.25rem;cursor:pointer;transition:all 0.15s}
+.emoji-opt.picked{border-color:var(--physics);background:rgba(56,189,248,0.12)}
+
+/* PROFILE TABS */
+.prof-tabs{display:flex;gap:0.35rem;overflow-x:auto;scrollbar-width:none;padding-bottom:0.7rem;margin-bottom:0.6rem;flex-wrap:nowrap}
+.prof-tabs::-webkit-scrollbar{display:none}
+.prof-tab{flex-shrink:0;background:var(--s1);border:1px solid var(--border);border-radius:10px;padding:0.38rem 0.75rem;font-size:0.7rem;font-weight:700;color:var(--muted);cursor:pointer;font-family:'Hind Siliguri',sans-serif;transition:all 0.2s;white-space:nowrap}
+.prof-tab.active{background:rgba(56,189,248,0.1);color:var(--physics);border-color:rgba(56,189,248,0.3)}
+
+/* PROFILE STAT CARDS */
+.prof-total-card{background:var(--s1);border:1px solid var(--border);border-radius:14px;padding:0.85rem 1rem;margin-bottom:0.75rem;display:flex;align-items:center;justify-content:space-between}
+.prof-total-label{font-size:0.72rem;color:var(--muted);font-family:'Hind Siliguri',sans-serif}
+.prof-total-val{font-size:1.5rem;font-weight:800;color:var(--physics);font-family:'Hind Siliguri',sans-serif}
+.prof-total-unit{font-size:0.68rem;color:var(--muted);margin-top:1px}
+.prof-sub-block{background:var(--s1);border:1px solid var(--border);border-radius:12px;margin-bottom:0.55rem;overflow:hidden}
+.prof-sub-header{display:flex;align-items:center;gap:0.6rem;padding:0.65rem 0.9rem;cursor:pointer}
+.prof-sub-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.prof-sub-name{font-size:0.8rem;font-weight:800;flex:1}
+.prof-sub-count{font-size:0.72rem;font-weight:700;color:var(--muted)}
+.prof-chapter-list{border-top:1px solid var(--border)}
+.prof-ch-row{display:flex;align-items:center;padding:0.48rem 0.9rem 0.48rem 2.2rem;border-bottom:1px solid var(--border);gap:0.5rem}
+.prof-ch-row:last-child{border-bottom:none}
+.prof-ch-name{font-size:0.73rem;flex:1;color:var(--text)}
+.prof-ch-val{font-size:0.7rem;font-weight:700;color:var(--physics)}
+.prof-ch-done{font-size:0.65rem;color:var(--green);background:rgba(74,222,128,0.1);border-radius:999px;padding:0.08rem 0.45rem;border:1px solid rgba(74,222,128,0.2)}
+.prof-empty{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:0.78rem}
+
+/* ═══════════ HOME PAGE ═══════════ */
+.home-header{display:flex;align-items:center;justify-content:space-between;padding:1.4rem 0 1rem}
+.home-greeting{font-size:0.72rem;color:var(--muted);font-family:'Hind Siliguri',sans-serif}
+.home-name{font-size:1.3rem;font-weight:800;color:var(--text);font-family:'Hind Siliguri',sans-serif;margin-top:2px}
+.home-avatar{width:46px;height:46px;border-radius:14px;background:rgba(56,189,248,0.1);border:1.5px solid rgba(56,189,248,0.2);display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;flex-shrink:0}
+.home-menu{display:flex;flex-direction:column;gap:0.6rem;padding-bottom:1.5rem}
+.home-card{background:var(--s1);border:1px solid var(--border);border-radius:16px;padding:0.9rem 1rem;display:flex;align-items:center;gap:0.9rem;cursor:pointer;transition:all 0.18s;animation:fadeUp 0.3s ease}
+.home-card:active{transform:scale(0.97);background:var(--s2)}
+.home-card-icon{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.home-card-icon svg{width:24px;height:24px}
+.home-card-text{flex:1}
+.home-card-title{font-size:0.9rem;font-weight:800;color:var(--text);font-family:'Hind Siliguri',sans-serif}
+.home-card-sub{font-size:0.67rem;color:var(--muted);margin-top:2px}
+.home-card-arrow{font-size:1.2rem;color:var(--muted);font-weight:300}
+
+/* ═══════════ SECTION HEADER ═══════════ */
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:0.85rem 1rem 0.7rem;margin-bottom:0;border-bottom:1px solid var(--border);flex-shrink:0;position:sticky;top:0;z-index:10;background:var(--bg);backdrop-filter:blur(10px)}
+.sec-back-btn{background:var(--s2);border:1px solid var(--border);border-radius:10px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--text);flex-shrink:0;transition:all 0.15s}
+.sec-back-btn:active{transform:scale(0.92)}
+.sec-header-title{font-size:0.95rem;font-weight:800;color:var(--text);font-family:'Hind Siliguri',sans-serif}
+
+/* Light mode home card icons */
+body.light .home-card{background:#fff}
+body.light .home-card-title{color:#111}
+body.light .home-card-sub{color:#888}
+body.light .home-card-arrow{color:#bbb}
+body.light .home-greeting{color:#888}
+body.light .home-name{color:#111}
+body.light .sec-back-btn{background:#f0f0f0;border-color:#e0e0e0}
+body.light .sec-header-title{color:#111}
+#page-home{overflow-y:auto;}
+
+/* MORE MENU */
+.home-more-btn{width:40px;height:40px;border-radius:12px;background:var(--s1);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--text);flex-shrink:0;transition:all 0.15s}
+.home-more-btn:active{transform:scale(0.93)}
+.more-menu{position:absolute;top:5.5rem;right:1rem;background:var(--s1);border:1px solid var(--border);border-radius:14px;overflow:hidden;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,0.35);min-width:160px;animation:fadeUp 0.18s ease}
+.more-menu-item{display:flex;align-items:center;gap:0.7rem;padding:0.8rem 1rem;cursor:pointer;font-size:0.82rem;font-weight:700;color:var(--text);font-family:'Hind Siliguri',sans-serif;transition:background 0.15s}
+.more-menu-item:hover{background:var(--s2)}
+.more-menu-item:not(:last-child){border-bottom:1px solid var(--border)}
+.more-menu-item svg{flex-shrink:0;color:var(--muted)}
+body.light .home-more-btn{background:#f5f5f5;border-color:#e0e0e0}
+body.light .more-menu{background:#fff;border-color:#e0e0e0;box-shadow:0 8px 24px rgba(0,0,0,0.12)}
+body.light .more-menu-item{color:#111}
+
+/* AVATAR UPLOAD */
+.avatar-upload-area{display:flex;align-items:center;gap:0.8rem;background:var(--s2);border:1.5px dashed rgba(56,189,248,0.3);border-radius:14px;padding:0.8rem 1rem;cursor:pointer;transition:all 0.2s}
+.avatar-upload-area:hover{border-color:rgba(56,189,248,0.6);background:rgba(56,189,248,0.05)}
+.avatar-preview{width:52px;height:52px;border-radius:14px;background:rgba(56,189,248,0.08);border:1.5px solid rgba(56,189,248,0.2);display:flex;align-items:center;justify-content:center;color:var(--muted);flex-shrink:0;overflow:hidden}
+.avatar-preview img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.avatar-upload-hint{flex:1}
+.avatar-upload-title{font-size:0.82rem;font-weight:700;color:var(--text)}
+.avatar-upload-sub{font-size:0.67rem;color:var(--muted);margin-top:2px}
+
+/* Profile cards with photo */
+.p-avatar img,.ap-avatar img{width:100%;height:100%;object-fit:cover;border-radius:inherit}
+
+/* ── Emoji replacement styles ── */
+.ptab-icon{display:inline-flex;align-items:center;margin-right:0.3rem;opacity:0.7}
+.prof-tab.active .ptab-icon{opacity:1}
+.notif-icon{width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:rgba(56,189,248,0.15);border-radius:8px;flex-shrink:0;color:var(--physics)}
+.alarm-icon{color:var(--math);margin-bottom:0.5rem}
+.pwa-install-icon{width:38px;height:38px;display:flex;align-items:center;justify-content:center;background:rgba(56,189,248,0.12);border-radius:10px;flex-shrink:0;color:var(--physics)}
+.empty .ico{display:flex;justify-content:center;color:var(--dim);margin-bottom:0.6rem}
+.prof-tab{display:inline-flex;align-items:center}
+.opt-icon{display:inline-flex;align-items:center}
+</style>
+</head>
+<body>
+<div class="bg-fx"></div>
+
+
+<!-- PROFILE SCREEN -->
+<div class="profile-screen" id="profile-screen">
+  <div class="profile-logo">StudyTrack</div>
+  <div class="profile-sub">প্রোফাইল বেছে নাও</div>
+  <div class="profile-cards" id="profile-cards-list"></div>
+  <button class="p-add-btn" onclick="openModal('modal-create-profile')" style="max-width:360px;width:100%;margin-top:0.7rem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> নতুন প্রোফাইল তৈরি করো</button>
+</div>
+
+<!-- Notif Banner -->
+<div class="notif-banner" id="notif-banner">
+  <div class="notif-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div>
+  <div class="notif-text"><strong id="notif-title">পড়ার সময়!</strong><span id="notif-msg"></span></div>
+  <button class="notif-close" onclick="closeNotif()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+</div>
+
+<!-- Alarm Overlay -->
+<div class="alarm-overlay" id="alarm-overlay">
+  <div class="alarm-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+  <div class="alarm-text" id="alarm-text">সময় শেষ!</div>
+  <div class="alarm-sub" id="alarm-sub">টার্গেট টাইমার শেষ হয়েছে</div>
+  <button class="alarm-stop" onclick="stopAlarm()">থামাও</button>
+</div>
+
+<div class="app">
+  <!-- HOME PAGE -->
+  <div class="page active" id="page-home">
+    <div class="home-header">
+      <div>
+        <div class="home-greeting" id="home-greeting">আস-সালামু আলাইকুম</div>
+        <div class="home-name">Study Track</div>
+      </div>
+      <button class="home-more-btn" id="home-more-btn" onclick="toggleMoreMenu()" aria-label="More options">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <!-- More Options Dropdown -->
+    <div class="more-menu" id="more-menu" style="display:none">
+      <div class="more-menu-item" onclick="closeMoreMenu();showPage('profile')">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>প্রোফাইল</span>
+      </div>
+      <div class="more-menu-item" onclick="closeMoreMenu();showPage('settings')">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06-.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>সেটিংস</span>
+      </div>
+    </div>
+    <div class="home-menu">
+      <div class="home-card" onclick="showPage('syllabus')">
+        <div class="home-card-icon" style="background:#e8f8e8">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#2d8a4e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">সিলেবাস</div>
+          <div class="home-card-sub">Syllabus</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+      <div class="home-card" onclick="showPage('targets')">
+        <div class="home-card-icon" style="background:#e8f4ff">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1a7abf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">টার্গেট সেট করো</div>
+          <div class="home-card-sub">Set Target</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+      <div class="home-card" onclick="showPage('daily')">
+        <div class="home-card-icon" style="background:#fff8e8">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#b07d1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">ডেইলি চ্যালেঞ্জ</div>
+          <div class="home-card-sub">Daily Challenge</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+      <div class="home-card" onclick="showPage('graph')">
+        <div class="home-card-icon" style="background:#f0f0ff">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#5b4abf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">পড়ার গ্রাফ</div>
+          <div class="home-card-sub">Study Graph</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+      <div class="home-card" onclick="showPage('timemgmt')">
+        <div class="home-card-icon" style="background:#ffe8e8">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#bf3a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">টাইম ম্যানেজমেন্ট</div>
+          <div class="home-card-sub">Time Management</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+      <div class="home-card" onclick="showPage('notifcenter')">
+        <div class="home-card-icon" style="background:#fff8e0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c49a00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        </div>
+        <div class="home-card-text">
+          <div class="home-card-title">নোটিফিকেশন</div>
+          <div class="home-card-sub">Notification Center</div>
+        </div>
+        <div class="home-card-arrow">›</div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- SECTION HEADER -->
+  <div class="section-header" id="section-header" style="display:none">
+    <button class="sec-back-btn" onclick="goHome()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="sec-header-title" id="sec-header-title">টার্গেট</div>
+    <div style="width:32px"></div>
+  </div>
+
+  <!-- SYLLABUS PAGE -->
+  <div class="page" id="page-syllabus">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.9rem">
+      <div class="sec-title" style="margin-bottom:0">সিলেবাস তৈরি করো</div>
+      <button onclick="openModal('modal-add-syllabus-subject')" style="background:linear-gradient(135deg,#38bdf8,#0ea5e9);color:#000;border:none;border-radius:10px;padding:0.45rem 0.85rem;font-size:0.75rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif">+ সাবজেক্ট</button>
+    </div>
+    <div id="syllabus-list"></div>
+  </div>
+
+  <!-- TARGETS PAGE -->
+  <div class="page" id="page-targets">
+    <div class="subject-tabs" id="subject-tabs"></div>
+    <div id="targets-list"></div>
+  </div>
+
+  <!-- SUB-PAGE: NOTE EDITOR -->
+  <div class="sub-page" id="subpage-note">
+    <div class="panel-header">
+      <button class="panel-back" onclick="closeSubPage('note')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div><div class="panel-title" id="note-panel-title">নোট</div><div class="panel-sub" id="note-panel-sub"></div></div>
+      <button class="share-btn" style="margin-top:0;margin-left:auto;padding:0.4rem 0.8rem;font-size:0.72rem" onclick="shareNote()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> শেয়ার</button>
+    </div>
+    <textarea class="note-editor" id="note-editor" placeholder="এখানে নোট লিখো..."></textarea>
+    <button class="share-btn" onclick="saveNoteAndClose()">সেভ করো</button>
+  </div>
+
+  <!-- SUB-PAGE: FILE MANAGER -->
+  <div class="sub-page" id="subpage-file">
+    <div class="panel-header">
+      <button class="panel-back" onclick="closeSubPage('file')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div><div class="panel-title" id="file-panel-title">ফাইল</div><div class="panel-sub" id="file-panel-sub"></div></div>
+    </div>
+    <div class="add-link-form">
+      <input type="text" id="file-title-inp" placeholder="ফাইলের নাম / টাইটেল লিখো..." />
+      <input type="url" id="file-url-inp" placeholder="PDF বা ফাইলের লিংক পেস্ট করো..." />
+      <button class="add-link-btn" onclick="addLink('file')">+ যোগ করো</button>
+    </div>
+    <div id="file-list"></div>
+  </div>
+
+  <!-- SUB-PAGE: CLASS MANAGER -->
+  <div class="sub-page" id="subpage-class">
+    <div class="panel-header">
+      <button class="panel-back" onclick="closeSubPage('class')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div><div class="panel-title" id="class-panel-title">ক্লাস</div><div class="panel-sub" id="class-panel-sub"></div></div>
+    </div>
+    <div class="add-link-form">
+      <input type="text" id="class-title-inp" placeholder="ক্লাসের নাম / টাইটেল লিখো..." />
+      <input type="url" id="class-url-inp" placeholder="YouTube, Facebook বা অন্য লিংক পেস্ট করো..." />
+      <button class="add-link-btn" onclick="addLink('class')">+ যোগ করো</button>
+    </div>
+    <div id="class-list"></div>
+  </div>
+
+  <!-- DAILY PAGE -->
+  <div class="page" id="page-daily">
+    <div class="daily-header">
+      <div class="date-label" id="daily-date-label"></div>
+      <div><button onclick="changeDay(-1)">‹</button><button onclick="changeDay(1)">›</button></div>
+    </div>
+    <div class="daily-inp-row">
+      <input class="daily-inp" id="daily-inp" type="text" placeholder="আজকে কী পড়বো..." />
+      <button class="daily-add-btn" onclick="addDailyTask()" data-bn="যোগ" data-en="Add">যোগ</button>
+    </div>
+    <div id="daily-list"></div>
+  </div>
+
+  <!-- GRAPH PAGE -->
+  <div class="page" id="page-graph">
+    <div class="stat-grid" id="stat-grid"></div>
+    <div class="graph-wrap">
+      <div class="graph-title" data-bn="দৈনিক পড়ার সময় (ঘণ্টা)" data-en="Daily Study Time (hours)">দৈনিক পড়ার সময় (ঘণ্টা)</div>
+      <canvas id="study-chart" height="160"></canvas>
+    </div>
+    <div class="sec-title" data-bn="পড়ার লগ" data-en="Study Log">পড়ার লগ</div>
+    <div id="study-log"></div>
+  </div>
+
+  <!-- PROFILE PAGE -->
+  <div class="page" id="page-profile">
+    <!-- Profile Header Card -->
+    <div id="active-profile-display"></div>
+
+    <!-- Tab Row -->
+    <div class="prof-tabs" id="prof-tabs">
+      <div class="prof-tab active" onclick="switchProfTab('subject',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>সাবজেক্ট</div>
+      <div class="prof-tab" onclick="switchProfTab('class',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>ক্লাস</div>
+      <div class="prof-tab" onclick="switchProfTab('note',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>নোট</div>
+      <div class="prof-tab" onclick="switchProfTab('mcq',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>MCQ</div>
+      <div class="prof-tab" onclick="switchProfTab('written',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></span>রিটেন</div>
+      <div class="prof-tab" onclick="switchProfTab('exam',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></span>এক্সাম</div>
+      <div class="prof-tab" onclick="switchProfTab('accounts',this)"><span class="ptab-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>অ্যাকাউন্ট</div>
+    </div>
+
+    <!-- Tab Content -->
+    <div id="prof-tab-content"></div>
+  </div>
+
+  <!-- SETTINGS PAGE -->
+  <div class="page" id="page-settings">
+    <div class="settings-group">
+      <div class="settings-group-title" data-bn="থিম" data-en="Theme">থিম</div>
+      <div class="setting-row">
+        <div><div class="setting-label" data-bn="ডার্ক মোড" data-en="Dark Mode">ডার্ক মোড</div></div>
+        <label class="toggle"><input type="checkbox" id="theme-toggle" onchange="toggleTheme(this)"><span class="toggle-slider"></span></label>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group-title" data-bn="ভাষা" data-en="Language">ভাষা</div>
+      <div class="setting-row">
+        <div><div class="setting-label" data-bn="অ্যাপের ভাষা" data-en="App Language">অ্যাপের ভাষা</div></div>
+        <select class="setting-select" id="lang-select" onchange="changeLang(this.value)">
+          <option value="bn">বাংলা</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group-title" data-bn="নোটিফিকেশন" data-en="Notifications">নোটিফিকেশন</div>
+      <div class="setting-row">
+        <div><div class="setting-label" data-bn="রিমাইন্ডার চালু" data-en="Enable Reminder">রিমাইন্ডার চালু</div></div>
+        <label class="toggle"><input type="checkbox" id="notif-toggle" checked onchange="saveSettings()"><span class="toggle-slider"></span></label>
+      </div>
+      <div class="setting-row">
+        <div><div class="setting-label" data-bn="কত মিনিট পর পর?" data-en="Every how many minutes?">কত মিনিট পর পর?</div></div>
+        <select class="setting-select" id="notif-interval" onchange="rescheduleNotif()">
+          <option value="30">৩০ মিনিট</option>
+          <option value="60" selected>১ ঘণ্টা</option>
+          <option value="90">দেড় ঘণ্টা</option>
+          <option value="120">২ ঘণ্টা</option>
+          <option value="180">৩ ঘণ্টা</option>
+        </select>
+      </div>
+      <div class="notif-msg-area">
+        <div style="font-size:0.68rem;font-weight:700;color:var(--muted);margin-bottom:0.35rem;text-transform:uppercase;letter-spacing:0.08em" data-bn="নোটিফিকেশন বার্তা" data-en="Notification Message">নোটিফিকেশন বার্তা</div>
+        <textarea id="notif-custom-msg">এখন পড়তে বসো! লক্ষ্য অর্জন করতে হবে!</textarea>
+        <button class="save-notif-btn" onclick="saveNotifMsg()" data-bn="সেভ করো" data-en="Save">সেভ করো</button>
+      </div>
+      <div class="setting-row" style="border-top:1px solid var(--border)">
+        <div><div class="setting-label" data-bn="ভয়েস নোটিফিকেশন" data-en="Voice Notification">ভয়েস নোটিফিকেশন</div></div>
+        <label class="toggle"><input type="checkbox" id="voice-toggle" onchange="saveSettings()"><span class="toggle-slider"></span></label>
+      </div>
+      <div class="voice-row">
+        <input class="voice-inp" type="text" id="voice-msg" value="এখন পড়তে বসো!" />
+        <button class="voice-test-btn" onclick="testVoice()">▶ টেস্ট</button>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group-title">StudyTrack v3.0</div>
+      <div class="setting-row">
+        <div><div class="setting-label" data-bn="সব ডেটা মুছো" data-en="Clear All Data">সব ডেটা মুছো</div></div>
+        <button style="background:rgba(248,113,113,0.1);color:var(--red);border:1px solid rgba(248,113,113,0.2);border-radius:7px;padding:0.32rem 0.75rem;font-size:0.72rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif" onclick="clearAll()">মুছো</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- TIME MANAGEMENT PAGE -->
+  <div class="page" id="page-timemgmt">
+    <div class="sec-title">এলার্ম</div>
+    <div class="add-link-form" id="alarm-form">
+      <input type="text" id="alarm-label-inp" placeholder="এলার্মের নাম (যেমন: পড়া শুরু)" />
+      <input type="time" id="alarm-time-inp" />
+      <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.5rem">
+        <span style="font-size:0.72rem;color:var(--muted)">প্রতিদিন?</span>
+        <label class="toggle" style="margin-left:0.3rem"><input type="checkbox" id="alarm-repeat"><span class="toggle-slider"></span></label>
+      </div>
+      <button class="add-link-btn" onclick="addAlarm()">+ এলার্ম যোগ করো</button>
+    </div>
+    <div id="alarm-list"></div>
+    <div class="sec-title" style="margin-top:1rem">কাউন্টডাউন</div>
+    <div class="add-link-form">
+      <input type="text" id="cd-title-inp" placeholder="টাইটেল (যেমন: HSC পরীক্ষা)" />
+      <input type="datetime-local" id="cd-target-inp" />
+      <button class="add-link-btn" onclick="addCountdown()">+ কাউন্টডাউন যোগ করো</button>
+    </div>
+    <div id="countdown-list"></div>
+  </div>
+
+  <!-- NOTIFICATION CENTER PAGE -->
+  <div class="page" id="page-notifcenter">
+    <div class="notif-tabs" id="notif-tabs">
+      <div class="sub-tab active" style="border-color:#38bdf8;color:#fff;background:rgba(255,255,255,0.06)" onclick="switchNotifTab('class')">ক্লাস</div>
+      <div class="sub-tab" onclick="switchNotifTab('exam')">এক্সাম</div>
+      <div class="sub-tab" onclick="switchNotifTab('read')">পড়া</div>
+      <div class="sub-tab" onclick="switchNotifTab('revision')">রিভিশন</div>
+    </div>
+    <div id="notif-center-content"></div>
+  </div>
+</div><!-- end .app -->
+
+<!-- FAB -->
+<button class="fab" id="fab" onclick="openFab()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+
+<!-- ADD TARGET MODAL -->
+<div class="overlay" id="modal-target" onclick="closeModalOut(event,'modal-target')">
+  <div class="modal">
+    <div class="modal-title" data-bn="নতুন টার্গেট" data-en="New Target">নতুন টার্গেট</div>
+    <div class="field"><label data-bn="সাবজেক্ট" data-en="Subject">সাবজেক্ট</label>
+      <select id="inp-subject" onchange="populateChapterDropdown()">
+      </select>
+    </div>
+    <div class="field"><label data-bn="অধ্যায় / টপিক" data-en="Chapter / Topic">অধ্যায় / টপিক</label>
+      <select id="inp-chapter-select" style="margin-bottom:0.4rem">
+        <option value="">-- টপিক বেছে নাও --</option>
+      </select>
+      <input type="text" id="inp-chapter" placeholder="অথবা নিজে লিখো..." />
+    </div>
+    <div class="field"><label data-bn="সময়সীমা" data-en="Deadline">সময়সীমা</label>
+      <input type="datetime-local" id="inp-deadline" />
+    </div>
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-target')">বাতিল</button>
+      <button class="m-save" onclick="saveTarget()">যোগ করো</button>
+    </div>
+  </div>
+</div>
+
+<!-- COUNT MODAL -->
+<div class="overlay center" id="modal-count" onclick="closeModalOut(event,'modal-count')">
+  <div class="modal modal-center">
+    <div class="modal-title" id="count-title">সংখ্যা লিখো</div>
+    <input class="c-inp" type="number" id="count-inp" min="0" placeholder="0" />
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-count')">বাতিল</button>
+      <button class="m-save" onclick="saveCount()">সেভ</button>
+    </div>
+  </div>
+</div>
+
+<!-- STEP OPTIONS MODAL (long-press on a step) -->
+<div class="overlay center" id="modal-step-opts" onclick="closeModalOut(event,'modal-step-opts')">
+  <div class="modal modal-center">
+    <div class="modal-title" id="step-opts-title">ধাপ অপশন</div>
+    <div id="step-opts-info" style="font-size:0.78rem;color:var(--muted);text-align:center;margin:-0.4rem 0 0.9rem"></div>
+    <div class="field">
+      <label data-bn="অবস্থান নির্বাচন করো" data-en="Choose position">অবস্থান নির্বাচন করো</label>
+      <select id="step-opts-pos" style="width:100%"></select>
+    </div>
+    <div class="modal-btns" style="flex-direction:column;gap:0.55rem;margin-top:0.4rem">
+      <button class="m-save" onclick="applyStepPos()" data-bn="অবস্থান সেট করো" data-en="Set position">অবস্থান সেট করো</button>
+      <button onclick="confirmDelStep()" style="background:linear-gradient(135deg,#ef4444,#dc2626);color:#fff;border:none;border-radius:10px;padding:0.7rem 1rem;font-weight:700;cursor:pointer;font-family:inherit;font-size:0.85rem" data-bn="এই ধাপ মুছে ফেলো" data-en="Delete this step"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg> এই ধাপ মুছে ফেলো</button>
+      <button class="m-cancel" onclick="closeModal('modal-step-opts')" data-bn="বাতিল" data-en="Cancel">বাতিল</button>
+    </div>
+  </div>
+</div>
+
+<!-- LOG MODAL -->
+<div class="overlay" id="modal-log" onclick="closeModalOut(event,'modal-log')">
+  <div class="modal">
+    <div class="modal-title" data-bn="পড়ার সময় লগ" data-en="Log Study Time">পড়ার সময় লগ</div>
+    <div class="field"><label data-bn="সাবজেক্ট" data-en="Subject">সাবজেক্ট</label>
+      <select id="log-subject" onchange="populateLogChapterDropdown()">
+      </select>
+    </div>
+    <div class="field"><label data-bn="অধ্যায়" data-en="Chapter">অধ্যায়</label>
+      <select id="log-chapter-select" style="margin-bottom:0.4rem">
+        <option value="">-- টপিক বেছে নাও --</option>
+      </select>
+      <input type="text" id="log-chapter" placeholder="অথবা নিজে লিখো..." />
+    </div>
+    <div class="field"><label data-bn="কত মিনিট?" data-en="Minutes?">কত মিনিট?</label>
+      <input type="number" id="log-minutes" min="1" placeholder="মিনিট" />
+    </div>
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-log')">বাতিল</button>
+      <button class="m-save" onclick="saveLog()">লগ করো</button>
+    </div>
+  </div>
+</div>
+
+<!-- ADD SYLLABUS SUBJECT MODAL -->
+<div class="overlay center" id="modal-add-syllabus-subject" onclick="closeModalOut(event,'modal-add-syllabus-subject')">
+  <div class="modal modal-center">
+    <div class="modal-title">নতুন সাবজেক্ট যোগ করো</div>
+    <div class="field">
+      <label>সাবজেক্টের নাম</label>
+      <input type="text" id="syl-sub-name" placeholder="যেমন: Physics, Chemistry..." />
+    </div>
+    <div class="field">
+      <label>রঙ বেছে নাও</label>
+      <div id="syl-color-picker" style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.3rem">
+        <div class="syl-color-opt" data-color="#38bdf8" style="width:28px;height:28px;border-radius:8px;background:#38bdf8;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#38bdf8',this)"></div>
+        <div class="syl-color-opt" data-color="#fb923c" style="width:28px;height:28px;border-radius:8px;background:#fb923c;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#fb923c',this)"></div>
+        <div class="syl-color-opt" data-color="#a78bfa" style="width:28px;height:28px;border-radius:8px;background:#a78bfa;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#a78bfa',this)"></div>
+        <div class="syl-color-opt" data-color="#4ade80" style="width:28px;height:28px;border-radius:8px;background:#4ade80;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#4ade80',this)"></div>
+        <div class="syl-color-opt" data-color="#f472b6" style="width:28px;height:28px;border-radius:8px;background:#f472b6;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#f472b6',this)"></div>
+        <div class="syl-color-opt" data-color="#fbbf24" style="width:28px;height:28px;border-radius:8px;background:#fbbf24;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#fbbf24',this)"></div>
+        <div class="syl-color-opt" data-color="#34d399" style="width:28px;height:28px;border-radius:8px;background:#34d399;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#34d399',this)"></div>
+        <div class="syl-color-opt" data-color="#f87171" style="width:28px;height:28px;border-radius:8px;background:#f87171;cursor:pointer;border:2px solid transparent" onclick="selectSylColor('#f87171',this)"></div>
+      </div>
+    </div>
+    <input type="hidden" id="syl-sub-color" value="#38bdf8" />
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-add-syllabus-subject')">বাতিল</button>
+      <button class="m-save" onclick="saveSyllabusSubject()">যোগ করো</button>
+    </div>
+  </div>
+</div>
+
+<!-- ADD SYLLABUS TOPIC MODAL -->
+<div class="overlay center" id="modal-add-syllabus-topic" onclick="closeModalOut(event,'modal-add-syllabus-topic')">
+  <div class="modal modal-center">
+    <div class="modal-title" id="syl-topic-modal-title">টপিক যোগ করো</div>
+    <div class="field">
+      <label>টপিক / অধ্যায়ের নাম</label>
+      <input type="text" id="syl-topic-name" placeholder="যেমন: গতিবিদ্যা, আলো..." />
+    </div>
+    <input type="hidden" id="syl-topic-subject-id" />
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-add-syllabus-topic')">বাতিল</button>
+      <button class="m-save" onclick="saveSyllabusTopic()">যোগ করো</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- CREATE / EDIT PROFILE MODAL -->
+<div class="overlay" id="modal-create-profile" onclick="closeModalOut(event,'modal-create-profile')">
+  <div class="modal">
+    <div class="modal-title" id="profile-modal-title">নতুন প্রোফাইল</div>
+    <input type="hidden" id="profile-edit-id" />
+    <div class="field">
+      <label>প্রোফাইল ছবি</label>
+      <div class="avatar-upload-area" onclick="document.getElementById('avatar-file-inp').click()">
+        <div class="avatar-preview" id="avatar-preview">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="avatar-upload-hint">
+          <div class="avatar-upload-title">ছবি আপলোড করো</div>
+          <div class="avatar-upload-sub">গ্যালারি বা ফাইল থেকে বেছে নাও</div>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="color:var(--muted);flex-shrink:0"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+      </div>
+      <input type="file" id="avatar-file-inp" accept="image/*" style="display:none" onchange="handleAvatarUpload(this)" />
+    </div>
+    <input type="hidden" id="profile-avatar-val" value="" />
+    <div class="field">
+      <label>তোমার নাম</label>
+      <input type="text" id="profile-name-inp" placeholder="নাম লিখো..." maxlength="30" />
+    </div>
+    <div class="field">
+      <label>ক্লাস / শ্রেণি</label>
+      <input type="text" id="profile-class-inp" placeholder="যেমন: Class 11, HSC 2025..." maxlength="30" />
+    </div>
+    <div class="field">
+      <label>লক্ষ্য</label>
+      <input type="text" id="profile-goal-inp" placeholder="যেমন: মেডিকেল, বুয়েট..." maxlength="40" />
+    </div>
+    <div class="modal-btns">
+      <button class="m-cancel" onclick="closeModal('modal-create-profile')">বাতিল</button>
+      <button class="m-save" onclick="saveProfile()">সেভ করো</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════ PROFILE SYSTEM ═══════════════
+const PROFILE_SK = 'studytrack_profiles';
+const ACTIVE_SK  = 'studytrack_active_profile';
+
+function loadProfiles(){
+  try{ return JSON.parse(localStorage.getItem(PROFILE_SK))||[] }catch{ return [] }
+}
+function saveProfiles(profiles){
+  localStorage.setItem(PROFILE_SK, JSON.stringify(profiles));
+}
+function getActiveProfileId(){
+  return localStorage.getItem(ACTIVE_SK)||null;
+}
+function setActiveProfileId(id){
+  localStorage.setItem(ACTIVE_SK, id);
+}
+
+// Storage key for a profile's data
+function profileDataKey(id){ return 'studytrack_data_'+id; }
+
+function loadProfileData(id){
+  try{ return JSON.parse(localStorage.getItem(profileDataKey(id)))||defData() }catch{ return defData() }
+}
+function saveProfileData(id, data){
+  localStorage.setItem(profileDataKey(id), JSON.stringify(data));
+}
+
+// ── Init: check if profiles exist ──
+function initProfiles(){
+  let profiles = loadProfiles();
+  // Migrate old data (SK) into a default profile if profiles list is empty
+  if(profiles.length === 0){
+    const oldRaw = localStorage.getItem('studytrack_v3');
+    const newId = 'prof_' + Date.now();
+    const defaultProfile = {
+      id: newId,
+      name: 'আমার প্রোফাইল',
+      avatar: '',
+      class: '',
+      goal: '',
+      createdAt: Date.now()
+    };
+    profiles.push(defaultProfile);
+    saveProfiles(profiles);
+    // migrate old data if exists
+    if(oldRaw){
+      localStorage.setItem(profileDataKey(newId), oldRaw);
+    }
+    setActiveProfileId(newId);
+    loadActiveProfile(newId);
+    // Skip profile screen on first ever launch (seamless)
+    hideProfileScreen();
+    return;
+  }
+
+  const activeId = getActiveProfileId();
+  const active = profiles.find(p => p.id === activeId);
+  if(active){
+    loadActiveProfile(activeId);
+    hideProfileScreen();
+  } else {
+    // Show profile picker
+    renderProfileScreen();
+    document.getElementById('profile-screen').classList.remove('hide');
+  }
+}
+
+function loadActiveProfile(id){
+  D = loadProfileData(id);
+  setActiveProfileId(id);
+}
+
+function showProfileScreen(){
+  renderProfileScreen();
+  const scr = document.getElementById('profile-screen');
+  scr.classList.remove('hide');
+}
+
+function hideProfileScreen(){
+  document.getElementById('profile-screen').classList.add('hide');
+}
+
+function renderProfileScreen(){
+  const profiles = loadProfiles();
+  const activeId = getActiveProfileId();
+  const el = document.getElementById('profile-cards-list');
+  if(!el) return;
+  if(profiles.length === 0){
+    el.innerHTML = '<div style="font-size:0.8rem;color:var(--muted);text-align:center;padding:1rem">কোনো প্রোফাইল নেই।</div>';
+    return;
+  }
+  el.innerHTML = profiles.map(p => `
+    <div class="p-card ${p.id===activeId?'sel':''}" onclick="selectProfile('${p.id}')">
+      <div class="p-avatar" style="overflow:hidden">${(p.avatar&&p.avatar.startsWith('data:'))?'<img src="'+p.avatar+'" style="width:100%;height:100%;object-fit:cover;border-radius:10px"/>':'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'}</div>
+      <div class="p-info">
+        <div class="p-name">${esc(p.name)}</div>
+        <div class="p-meta">${esc(p.class||'')}${p.class&&p.goal?' · ':''}${esc(p.goal||'')}</div>
+      </div>
+      <button class="p-del" onclick="event.stopPropagation();delProfile('${p.id}')" title="মুছো"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></button>
+    </div>`).join('');
+}
+
+function selectProfile(id){
+  const profiles = loadProfiles();
+  const p = profiles.find(x => x.id === id);
+  if(!p) return;
+  loadActiveProfile(id);
+  hideProfileScreen();
+  // Re-init the app with new profile data
+  SUBJECTS = getSUBJECTS();
+  renderSyllabus();
+  initSettings();
+  renderProfilePage();
+  showNotif(esc(p.name), (p.class||'')+(p.goal?' | লক্ষ্য: '+p.goal:''));
+}
+
+function delProfile(id){
+  const profiles = loadProfiles();
+  if(profiles.length <= 1){ alert('অন্তত একটি প্রোফাইল থাকতে হবে!'); return; }
+  if(!confirm('এই প্রোফাইল ও সব ডেটা মুছে যাবে!')) return;
+  const newProfiles = profiles.filter(p => p.id !== id);
+  saveProfiles(newProfiles);
+  localStorage.removeItem(profileDataKey(id));
+  if(getActiveProfileId() === id){
+    setActiveProfileId(null);
+  }
+  renderProfileScreen();
+  renderProfilePage();
+}
+
+let pickedAvatar = '';
+
+function handleAvatarUpload(input){
+  const file = input.files[0];
+  if(!file) return;
+  if(file.size > 2 * 1024 * 1024){
+    alert('ছবি ২MB এর বেশি হতে পারবে না।');
+    input.value='';
+    return;
+  }
+  const reader = new FileReader();
+  reader.onload = function(e){
+    const dataUrl = e.target.result;
+    pickedAvatar = dataUrl;
+    document.getElementById('profile-avatar-val').value = dataUrl;
+    // update preview
+    const prev = document.getElementById('avatar-preview');
+    if(prev) prev.innerHTML = '<img src="'+dataUrl+'" alt="avatar"/>';
+  };
+  reader.readAsDataURL(file);
+}
+
+function openEditProfile(){
+  const activeId = getActiveProfileId();
+  const profiles = loadProfiles();
+  const p = profiles.find(x => x.id === activeId);
+  if(!p) return;
+  document.getElementById('profile-modal-title').textContent = 'প্রোফাইল সম্পাদনা';
+  document.getElementById('profile-edit-id').value = p.id;
+  document.getElementById('profile-name-inp').value = p.name||'';
+  document.getElementById('profile-class-inp').value = p.class||'';
+  document.getElementById('profile-goal-inp').value = p.goal||'';
+  pickedAvatar = p.avatar||'';
+  document.getElementById('profile-avatar-val').value = pickedAvatar;
+  // show existing photo in preview
+  const prev = document.getElementById('avatar-preview');
+  if(prev){
+    if(pickedAvatar && pickedAvatar.startsWith('data:')){
+      prev.innerHTML = '<img src="'+pickedAvatar+'" alt="avatar"/>';
+    } else {
+      prev.innerHTML = '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>';
+    }
+  }
+  openModal('modal-create-profile');
+}
+
+function saveProfile(){
+  const name = document.getElementById('profile-name-inp').value.trim();
+  if(!name){ document.getElementById('profile-name-inp').focus(); return; }
+  const avatar = document.getElementById('profile-avatar-val').value || '';
+  const cls   = document.getElementById('profile-class-inp').value.trim();
+  const goal  = document.getElementById('profile-goal-inp').value.trim();
+  const editId = document.getElementById('profile-edit-id').value;
+
+  let profiles = loadProfiles();
+  if(editId){
+    // Edit existing
+    const p = profiles.find(x => x.id === editId);
+    if(p){ p.name=name; p.avatar=avatar; p.class=cls; p.goal=goal; }
+  } else {
+    // New profile
+    const newId = 'prof_' + Date.now();
+    profiles.push({ id:newId, name, avatar, class:cls, goal, createdAt:Date.now() });
+    // auto-switch to new profile
+    setActiveProfileId(newId);
+    D = defData();
+    saveData_profile(newId);
+  }
+  saveProfiles(profiles);
+
+  // Reset form
+  document.getElementById('profile-edit-id').value = '';
+  document.getElementById('profile-modal-title').textContent = 'নতুন প্রোফাইল';
+  closeModal('modal-create-profile');
+  renderProfileScreen();
+  renderProfilePage();
+
+  const activeId = getActiveProfileId();
+  if(editId && editId === activeId){
+    showNotif('প্রোফাইল আপডেট!', name);
+  } else if(!editId){
+    SUBJECTS = getSUBJECTS();
+    renderSyllabus();
+    showNotif('নতুন প্রোফাইল!', name+' তৈরি হয়েছে');
+    hideProfileScreen();
+  }
+}
+
+// Save current D to active profile
+function saveData_profile(id){
+  id = id || getActiveProfileId();
+  if(id) localStorage.setItem(profileDataKey(id), JSON.stringify(D));
+}
+
+let curProfTab = 'subject';
+
+function switchProfTab(tab, el){
+  curProfTab = tab;
+  document.querySelectorAll('.prof-tab').forEach(e => e.classList.remove('active'));
+  if(el) el.classList.add('active');
+  renderProfTabContent();
+}
+
+function renderProfilePage(){
+  // Profile header card
+  const profiles = loadProfiles();
+  const activeId = getActiveProfileId();
+  const active = profiles.find(p => p.id === activeId);
+  const dispEl = document.getElementById('active-profile-display');
+  if(dispEl && active){
+    dispEl.innerHTML = `
+      <div class="active-profile-card" style="margin-bottom:0.75rem">
+        <div class="ap-avatar" onclick="openEditProfile()" style="overflow:hidden">${(active.avatar&&active.avatar.startsWith('data:'))?'<img src="'+active.avatar+'" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/>':(active.avatar||'<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>')}</div>
+        <div style="flex:1">
+          <div class="ap-name">${esc(active.name)}</div>
+          <div class="ap-meta">${active.class?esc(active.class):''}${active.goal?' · '+esc(active.goal):''}</div>
+        </div>
+        <button onclick="openEditProfile()" style="background:rgba(56,189,248,0.1);color:var(--physics);border:1px solid rgba(56,189,248,0.2);border-radius:8px;padding:0.28rem 0.6rem;font-size:0.68rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif">সম্পাদনা</button>
+      </div>`;
+  }
+  // Sync active tab UI
+  document.querySelectorAll('.prof-tab').forEach((el,i) => {
+    const tabs=['subject','class','note','mcq','written','exam','accounts'];
+    el.classList.toggle('active', tabs[i]===curProfTab);
+  });
+  renderProfTabContent();
+}
+
+function renderProfTabContent(){
+  const el = document.getElementById('prof-tab-content');
+  if(!el) return;
+
+  if(curProfTab === 'accounts'){
+    renderAccountsTab(el);
+    return;
+  }
+
+  // Stats tabs: subject / class / note / mcq / written / exam
+  const SUBS = getSUBJECTS();
+  const targets = D.targets || [];
+
+  if(curProfTab === 'subject'){
+    // Chapter completion: step 'done' means chapter finished
+    // A chapter is "done" if ALL steps done OR user manually marked
+    // We measure: targets where ALL steps done = chapter complete
+    const getStepsDone = (t) => {
+      const steps = getSteps(t);
+      return steps.every(s => t.steps[s.id] && t.steps[s.id].done);
+    };
+
+    const totalDone = targets.filter(t => getStepsDone(t)).length;
+    const totalAll  = targets.length;
+
+    let html = `<div class="prof-total-card">
+      <div>
+        <div class="prof-total-label">মোট চ্যাপ্টার শেষ</div>
+        <div class="prof-total-unit">(সব স্টেপ সম্পন্ন)</div>
+      </div>
+      <div style="text-align:right">
+        <div class="prof-total-val">${totalDone}</div>
+        <div class="prof-total-unit">/ ${totalAll} টি</div>
+      </div>
+    </div>`;
+
+    html += buildSubjectBlocks(targets, SUBS, (t) => {
+      const done = getStepsDone(t);
+      return { val: done ? 'শেষ' : 'চলমান', isDone: done };
+    }, 'subject');
+
+    el.innerHTML = html || '<div class="prof-empty">কোনো টার্গেট নেই।</div>';
+    return;
+  }
+
+  // For step-count tabs
+  const stepMap = {
+    class:   { label:'ক্লাস',   unit:'টি',   id:'class'   },
+    note:    { label:'নোট',    unit:'পৃষ্ঠা', id:'note'    },
+    mcq:     { label:'MCQ',   unit:'টি',   id:'mcq'     },
+    written: { label:'রিটেন', unit:'টি',   id:'written' },
+    exam:    { label:'এক্সাম', unit:'টি',   id:'exam'    },
+  };
+  const sm = stepMap[curProfTab];
+  if(!sm){ el.innerHTML=''; return; }
+
+  const getCount = (t) => {
+    const steps = getSteps(t);
+    const customStep = steps.find(s => s.id === sm.id);
+    if(customStep && t.steps[sm.id]) return t.steps[sm.id].count || 0;
+    // also check customSteps by matching label
+    if(t.customSteps){
+      const cs = t.customSteps.find(s => s.id===sm.id);
+      if(cs && t.steps[sm.id]) return t.steps[sm.id].count||0;
+    }
+    return 0;
+  };
+
+  const totalCount = targets.reduce((acc, t) => acc + getCount(t), 0);
+
+  let html = `<div class="prof-total-card">
+    <div>
+      <div class="prof-total-label">মোট ${sm.label}</div>
+    </div>
+    <div style="text-align:right">
+      <div class="prof-total-val">${totalCount}</div>
+      <div class="prof-total-unit">${sm.unit}</div>
+    </div>
+  </div>`;
+
+  html += buildSubjectBlocks(targets, SUBS, (t) => {
+    const c = getCount(t);
+    return { val: c > 0 ? c + ' ' + sm.unit : '—', isDone: c > 0 };
+  }, curProfTab);
+
+  el.innerHTML = html;
+}
+
+// Build subject → chapter tree
+function buildSubjectBlocks(targets, SUBS, getValFn, tabKey){
+  if(!targets.length) return '<div class="prof-empty">কোনো টার্গেট নেই।<br>সিলেবাস ও টার্গেট তৈরি করো।</div>';
+
+  // Group by subject
+  const grouped = {};
+  targets.forEach(t => {
+    if(!grouped[t.subject]) grouped[t.subject] = [];
+    grouped[t.subject].push(t);
+  });
+
+  return Object.entries(grouped).map(([subId, tlist]) => {
+    const sub = SUBS[subId] || { name: subId, hex: '#94a3b8' };
+
+    // subject-level summary count
+    let summaryCount = 0;
+    if(tabKey === 'subject'){
+      summaryCount = tlist.filter(t => {
+        const steps = getSteps(t);
+        return steps.every(s => t.steps[s.id] && t.steps[s.id].done);
+      }).length;
+    } else {
+      tlist.forEach(t => {
+        if(t.steps[tabKey]) summaryCount += t.steps[tabKey].count||0;
+      });
+    }
+
+    const chapters = tlist.map(t => {
+      const res = getValFn(t);
+      return `<div class="prof-ch-row">
+        <div class="prof-ch-name">${esc(t.chapter)}</div>
+        ${tabKey==='subject'
+          ? (res.isDone ? '<span class="prof-ch-done">শেষ</span>' : '<span style="font-size:0.65rem;color:var(--muted)">চলমান</span>')
+          : `<span class="prof-ch-val">${esc(String(res.val))}</span>`
+        }
+      </div>`;
+    }).join('');
+
+    return `<div class="prof-sub-block">
+      <div class="prof-sub-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
+        <div class="prof-sub-dot" style="background:${sub.hex}"></div>
+        <div class="prof-sub-name" style="color:${sub.hex}">${esc(sub.name)}</div>
+        <div class="prof-sub-count">${tabKey==='subject'?summaryCount+'/'+tlist.length+' শেষ':summaryCount+(tabKey==='note'?' পৃ':' টি')}</div>
+        <div style="color:var(--dim);font-size:0.7rem;margin-left:0.3rem">▾</div>
+      </div>
+      <div class="prof-chapter-list">${chapters}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderAccountsTab(el){
+  const profiles = loadProfiles();
+  const activeId = getActiveProfileId();
+  let html = `<div class="settings-group" style="margin-bottom:0.7rem">
+    <div class="settings-group-title">সকল প্রোফাইল</div>
+    <div style="padding:0.3rem 0">`;
+  html += profiles.map(p => `
+    <div style="display:flex;align-items:center;gap:0.7rem;padding:0.55rem 0.3rem;border-bottom:1px solid var(--border)">
+      <div style="width:36px;height:36px;border-radius:10px;background:rgba(56,189,248,0.08);display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;overflow:hidden">${(p.avatar&&p.avatar.startsWith('data:'))?'<img src="'+p.avatar+'" style="width:100%;height:100%;object-fit:cover;border-radius:8px"/>':'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'}</div>
+      <div style="flex:1">
+        <div style="font-size:0.82rem;font-weight:800">${esc(p.name)} ${p.id===activeId?'<span style="font-size:0.58rem;background:rgba(56,189,248,0.15);color:var(--physics);border-radius:999px;padding:0.04rem 0.4rem">সক্রিয়</span>':''}</div>
+        <div style="font-size:0.62rem;color:var(--muted);margin-top:1px">${esc(p.class||'')}${p.goal?' · '+esc(p.goal):''}</div>
+      </div>
+      ${p.id!==activeId?`<button onclick="selectProfile('${p.id}')" style="background:rgba(74,222,128,0.08);color:var(--green);border:1px solid rgba(74,222,128,0.2);border-radius:7px;padding:0.22rem 0.5rem;font-size:0.63rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif">সুইচ</button>`:''}
+      <button onclick="delProfile('${p.id}')" style="background:none;border:none;color:var(--dim);cursor:pointer;padding:4px;display:flex;align-items:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></button>
+    </div>`).join('');
+  html += `</div></div>
+  <button onclick="openModal('modal-create-profile')" style="width:100%;background:rgba(56,189,248,0.08);color:var(--physics);border:1.5px dashed rgba(56,189,248,0.25);border-radius:12px;padding:0.68rem;font-size:0.78rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;margin-bottom:0.75rem"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> নতুন প্রোফাইল তৈরি করো</button>
+  <div class="settings-group">
+    <div class="settings-group-title">অ্যাকশন</div>
+    <div class="setting-row">
+      <div><div class="setting-label">প্রোফাইল পিকার খোলো</div><div class="setting-sub">অন্য প্রোফাইলে সুইচ করতে</div></div>
+      <button onclick="showProfileScreen()" style="background:rgba(56,189,248,0.1);color:var(--physics);border:1px solid rgba(56,189,248,0.2);border-radius:7px;padding:0.28rem 0.65rem;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif">সুইচ করো</button>
+    </div>
+  </div>`;
+  el.innerHTML = html;
+}
+
+// ═══════════════ DATA ═══════════════
+const SK='studytrack_v3';
+function loadData(){try{return JSON.parse(localStorage.getItem(SK))||defData()}catch{return defData()}}
+function defData(){return{targets:[],daily:{},studyLogs:[],alarms:[],countdowns:[],ncItems:{class:[],exam:[],read:[],revision:[]},syllabus:[],settings:{theme:'dark',lang:'bn',notifEnabled:true,notifInterval:60,notifMsg:'এখন পড়তে বসো! লক্ষ্য অর্জন করতে হবে!',voiceEnabled:false,voiceMsg:'এখন পড়তে বসো!'}}}
+function saveData(){
+  localStorage.setItem(SK,JSON.stringify(D));
+  const pid=getActiveProfileId();
+  if(pid)localStorage.setItem(profileDataKey(pid),JSON.stringify(D));
+}
+let D=loadData();
+
+const SUBJECTS_STATIC={
+  physics:{name:'Physics',color:'var(--physics)',hex:'#38bdf8'},
+  chemistry:{name:'Chemistry',color:'var(--chemistry)',hex:'#fb923c'},
+  math:{name:'Math',color:'var(--math)',hex:'#a78bfa'},
+  biology:{name:'Biology',color:'var(--biology)',hex:'#4ade80'},
+  bangla:{name:'Bangla',color:'var(--bangla)',hex:'#f472b6'},
+  english:{name:'English',color:'var(--english)',hex:'#fbbf24'},
+};
+
+// Build SUBJECTS dynamically from syllabus; fallback to static if syllabus empty
+function getSUBJECTS(){
+  if(!D.syllabus)D.syllabus=[];
+  if(D.syllabus.length===0) return SUBJECTS_STATIC;
+  const obj={};
+  D.syllabus.forEach(s=>{
+    obj[s.id]={name:s.name,color:s.hex,hex:s.hex};
+  });
+  return obj;
+}
+// For compat
+let SUBJECTS=getSUBJECTS();
+// Default steps (used for new targets)
+const DEFAULT_STEPS=[
+  {id:'class', label:'ক্লাস', unit:'টি'},
+  {id:'note',  label:'নোট',   unit:'পৃষ্ঠা'},
+  {id:'mcq',   label:'এমসিকিউ',unit:'টি'},
+  {id:'written',label:'রিটেন', unit:'টি'},
+  {id:'exam',  label:'এক্সাম', unit:'টি'},
+];
+function getSteps(t){return t.customSteps||DEFAULT_STEPS}
+function SL(){return null} // kept for compat
+
+let curSubject='physics';
+let swIntervals={};
+let countCtx=null;
+let curDayOffset=0;
+let currentPage='home';
+let notifTimer=null;
+let lang='bn';
+let alarmTimeout=null;
+let alarmAudio=null;
+let ttIntervals={}; // target timer intervals
+let subPageCtx=null; // {targetId, type}
+
+function T(bn,en){return lang==='bn'?bn:en}
+
+// ═══════════════ SETTINGS ═══════════════
+function initSettings(){
+  const s=D.settings;lang=s.lang||'bn';
+  if(s.theme==='light'){document.body.classList.add('light');document.getElementById('theme-toggle').checked=false}
+  else{document.body.classList.remove('light');document.getElementById('theme-toggle').checked=true}
+  document.getElementById('lang-select').value=lang;
+  document.getElementById('notif-toggle').checked=s.notifEnabled!==false;
+  document.getElementById('notif-interval').value=s.notifInterval||60;
+  document.getElementById('notif-custom-msg').value=s.notifMsg||'এখন পড়তে বসো!';
+  document.getElementById('voice-toggle').checked=s.voiceEnabled||false;
+  document.getElementById('voice-msg').value=s.voiceMsg||'এখন পড়তে বসো!';
+  applyLang();
+}
+function saveSettings(){
+  D.settings.notifEnabled=document.getElementById('notif-toggle').checked;
+  D.settings.voiceEnabled=document.getElementById('voice-toggle').checked;
+  D.settings.voiceMsg=document.getElementById('voice-msg').value.trim()||'এখন পড়তে বসো!';
+  saveData();rescheduleNotif();
+}
+function toggleTheme(cb){
+  if(cb.checked){document.body.classList.remove('light');D.settings.theme='dark'}
+  else{document.body.classList.add('light');D.settings.theme='light'}
+  saveData();
+}
+function changeLang(v){
+  lang=v;D.settings.lang=v;saveData();applyLang();
+  renderTargets();
+}
+function applyLang(){
+  document.querySelectorAll('[data-bn]').forEach(el=>{
+    if(el.tagName!=='INPUT'&&el.tagName!=='TEXTAREA')el.textContent=lang==='bn'?el.dataset.bn:el.dataset.en;
+  });
+  const di=document.getElementById('daily-inp');
+  if(di)di.placeholder=T('আজকে কী পড়বো...','What to study today...');
+}
+function saveNotifMsg(){
+  D.settings.notifMsg=document.getElementById('notif-custom-msg').value.trim()||'পড়ার সময়!';
+  saveData();rescheduleNotif();
+  showNotif(T('সেভ হয়েছে!','Saved!'),T('বার্তা আপডেট হয়েছে।','Message updated.'));
+}
+function clearAll(){if(!confirm(T('সব ডেটা মুছে যাবে! নিশ্চিত?','All data deleted! Sure?')))return;D=defData();saveData();location.reload()}
+
+
+// ═══════════════ TIME MANAGEMENT ═══════════════
+let cdIntervals_tm = {};
+
+function renderTimeMgmt(){
+  renderAlarmList();
+  renderCountdownList();
+}
+
+// ── ALARMS ──
+function addAlarm(){
+  const label = document.getElementById('alarm-label-inp').value.trim() || 'এলার্ম';
+  const time = document.getElementById('alarm-time-inp').value;
+  const repeat = document.getElementById('alarm-repeat').checked;
+  if(!time){alert('সময় দিতে হবে!');return}
+  if(!D.alarms)D.alarms=[];
+  D.alarms.push({id:Date.now().toString(),label,time,repeat,enabled:true});
+  saveData();
+  document.getElementById('alarm-label-inp').value='';
+  document.getElementById('alarm-time-inp').value='';
+  renderAlarmList();
+  scheduleAlarms();
+}
+
+function renderAlarmList(){
+  const el=document.getElementById('alarm-list');if(!el)return;
+  if(!(D.alarms||[]).length){el.innerHTML='<div class="empty"><div class="ico"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><p>কোনো এলার্ম নেই।</p></div>';return}
+  el.innerHTML=(D.alarms||[]).map(a=>`
+    <div class="alarm-card">
+      <div class="alarm-time-big">${a.time}</div>
+      <div class="alarm-info">
+        <div class="alarm-label">${esc(a.label)}</div>
+        <div class="alarm-meta">${a.repeat?'প্রতিদিন':'একবার'}</div>
+      </div>
+      <label class="toggle alarm-toggle">
+        <input type="checkbox" ${a.enabled?'checked':''} onchange="toggleAlarm('${a.id}',this.checked)">
+        <span class="toggle-slider"></span>
+      </label>
+      <button class="link-btn link-del" onclick="delAlarm('${a.id}')"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>`).join('');
+}
+
+function toggleAlarm(id,val){
+  const a=(D.alarms||[]).find(x=>x.id===id);if(a){a.enabled=val;saveData();scheduleAlarms()}
+}
+function delAlarm(id){
+  D.alarms=(D.alarms||[]).filter(x=>x.id!==id);saveData();renderAlarmList();
+}
+
+let alarmCheckInterval=null;
+function scheduleAlarms(){
+  if(alarmCheckInterval)clearInterval(alarmCheckInterval);
+  alarmCheckInterval=setInterval(checkAlarms,30000);
+  checkAlarms();
+}
+function checkAlarms(){
+  if(!(D.alarms||[]).length)return;
+  const now=new Date();
+  const hhmm=now.getHours().toString().padStart(2,'0')+':'+now.getMinutes().toString().padStart(2,'0');
+  (D.alarms||[]).forEach(a=>{
+    if(!a.enabled)return;
+    if(a.time===hhmm){
+      fireAlarm(a.label);
+      speakMsg(a.label);
+      showNotif('এলার্ম!', a.label);
+      if(!a.repeat){a.enabled=false;saveData()}
+    }
+  });
+}
+
+// ── COUNTDOWNS ──
+function addCountdown(){
+  const title=document.getElementById('cd-title-inp').value.trim();
+  const target=document.getElementById('cd-target-inp').value;
+  if(!title||!target){alert('টাইটেল ও তারিখ দিতে হবে!');return}
+  if(!D.countdowns)D.countdowns=[];
+  D.countdowns.push({id:Date.now().toString(),title,target});
+  saveData();
+  document.getElementById('cd-title-inp').value='';
+  document.getElementById('cd-target-inp').value='';
+  renderCountdownList();
+}
+
+function renderCountdownList(){
+  const el=document.getElementById('countdown-list');if(!el)return;
+  if(!(D.countdowns||[]).length){el.innerHTML='<div class="empty"><div class="ico"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></svg></div><p>কোনো কাউন্টডাউন নেই।</p></div>';return}
+  el.innerHTML=(D.countdowns||[]).map(c=>{
+    const diff=new Date(c.target)-Date.now();
+    const expired=diff<=0;
+    const d=expired?0:Math.floor(diff/86400000);
+    const h=expired?0:Math.floor((diff%86400000)/3600000);
+    const m=expired?0:Math.floor((diff%3600000)/60000);
+    const s=expired?0:Math.floor((diff%60000)/1000);
+    return`<div class="cd-card" id="cdcard-${c.id}">
+      <div class="cd-card-title">
+        <span>${esc(c.title)}</span>
+        <button class="link-btn link-del" onclick="delCountdown('${c.id}')"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      </div>
+      ${expired?'<div style="color:var(--green);font-weight:700;text-align:center;padding:0.4rem">সময় হয়ে গেছে!</div>':`
+      <div class="cd-units">
+        <div class="cd-unit"><div class="cd-num" id="cd-d-${c.id}">${p(d)}</div><div class="cd-lbl">দিন</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-h-${c.id}">${p(h)}</div><div class="cd-lbl">ঘণ্টা</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-m-${c.id}">${p(m)}</div><div class="cd-lbl">মিনিট</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-s-${c.id}">${p(s)}</div><div class="cd-lbl">সেকেন্ড</div></div>
+      </div>`}
+    </div>`;
+  }).join('');
+  startCountdownsGlobal();
+}
+
+let globalCdInterval=null;
+function startCountdownsGlobal(){
+  if(globalCdInterval)clearInterval(globalCdInterval);
+  globalCdInterval=setInterval(()=>{
+    (D.countdowns||[]).forEach(c=>{
+      const diff=new Date(c.target)-Date.now();
+      if(diff<=0)return;
+      const d=Math.floor(diff/86400000),h=Math.floor((diff%86400000)/3600000),
+            m=Math.floor((diff%3600000)/60000),s=Math.floor((diff%60000)/1000);
+      const de=document.getElementById('cd-d-'+c.id);
+      const he=document.getElementById('cd-h-'+c.id);
+      const me=document.getElementById('cd-m-'+c.id);
+      const se=document.getElementById('cd-s-'+c.id);
+      if(de)de.textContent=p(d);if(he)he.textContent=p(h);
+      if(me)me.textContent=p(m);if(se)se.textContent=p(s);
+    });
+  },1000);
+}
+
+function delCountdown(id){
+  D.countdowns=(D.countdowns||[]).filter(x=>x.id!==id);saveData();renderCountdownList();
+}
+
+// ═══════════════ NOTIFICATION CENTER ═══════════════
+let curNotifTab='class';
+const NC_TYPES={
+  class:{label:'ক্লাস',color:'#38bdf8',icon:'',msg:(t)=>`আজকে ${t} ক্লাস আছে!`},
+  exam:{label:'এক্সাম',color:'#f87171',icon:'',msg:(t)=>`আজকে ${t} এক্সাম আছে!`},
+  read:{label:'পড়া',color:'#4ade80',icon:'',msg:(t)=>`আজকে "${t}" পড়তে হবে!`},
+  revision:{label:'রিভিশন',color:'#a78bfa',icon:'',msg:(t)=>`আজকে ${t} রিভিশন দিতে হবে!`},
+};
+
+function switchNotifTab(tab){
+  curNotifTab=tab;
+  document.querySelectorAll('.notif-tabs .sub-tab').forEach((el,i)=>{
+    const tabs=['class','exam','read','revision'];
+    const t=tabs[i];const nc=NC_TYPES[t];
+    if(t===tab){el.style.cssText=`border-color:${nc.color};color:#fff;background:rgba(255,255,255,0.06)`;el.classList.add('active')}
+    else{el.style.cssText='';el.classList.remove('active')}
+  });
+  renderNotifCenter();
+}
+
+function renderNotifCenter(){
+  const el=document.getElementById('notif-center-content');if(!el)return;
+  const nc=NC_TYPES[curNotifTab];
+  if(!D.ncItems)D.ncItems={};
+  const items=(D.ncItems[curNotifTab])||[];
+  const todayKey=getDayKey(0);
+  const todayItems=items.filter(x=>x.date===todayKey);
+
+  let html='';
+
+  // Today banner
+  if(todayItems.length>0){
+    html+=`<div class="today-banner show">`;
+    todayItems.forEach(it=>{
+      html+=`${nc.icon} ${nc.msg(esc(it.title))} `;
+    });
+    html+=`</div>`;
+  }
+
+  // Add form
+  html+=`<div class="nc-form">
+    <div style="font-size:0.72rem;font-weight:700;color:${nc.color};margin-bottom:0.6rem;text-transform:uppercase;letter-spacing:0.08em">${nc.icon} নতুন ${nc.label} যোগ করো</div>
+    <input class="daily-inp" style="margin-bottom:0.5rem;display:block" type="text" id="nc-title-inp" placeholder="${nc.label}এর নাম / বিষয়..." />
+    <input class="daily-inp" style="margin-bottom:0.5rem;display:block" type="date" id="nc-date-inp" value="${todayKey}" />
+    ${curNotifTab==='read'?`<input class="daily-inp" style="margin-bottom:0.5rem;display:block" type="text" id="nc-page-inp" placeholder="পৃষ্ঠা (যেমন: ১-৫০)" />`:''}
+    <button class="add-link-btn" style="background:${nc.color}" onclick="addNcItem()">+ যোগ করো</button>
+  </div>`;
+
+  // Items list
+  if(!items.length){
+    html+=`<div class="empty"><div class="ico">${nc.icon}</div><p>কোনো ${nc.label} নেই।<br>উপরে যোগ করো!</p></div>`;
+  } else {
+    // Sort by date
+    [...items].sort((a,b)=>a.date.localeCompare(b.date)).forEach((it,i)=>{
+      const isToday=it.date===todayKey;
+      const isPast=it.date<todayKey;
+      html+=`<div class="nc-item" style="${isToday?'border-color:'+nc.color:''}${isPast?';opacity:0.6':''}">
+        <div class="nc-item-head">
+          <div class="nc-item-title">${nc.icon} ${esc(it.title)}</div>
+          <div class="nc-item-date">${it.date}</div>
+        </div>
+        ${it.page?`<div class="nc-item-body">পৃষ্ঠা: ${esc(it.page)}</div>`:''}
+        ${isToday?`<span class="nc-badge" style="background:${nc.color}22;color:${nc.color};border:1px solid ${nc.color}33">আজকে!</span>`:''}
+        ${isPast?`<span class="nc-badge" style="background:rgba(100,116,139,0.1);color:var(--muted);border:1px solid var(--border)">সম্পন্ন</span>`:''}
+        <div class="nc-item-actions">
+          <button class="link-btn link-del" style="width:auto;padding:0.2rem 0.5rem;font-size:0.65rem;display:inline-flex;align-items:center;gap:0.2rem" onclick="delNcItem(${items.indexOf(it)})"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> মুছো</button>
+        </div>
+      </div>`;
+    });
+  }
+  el.innerHTML=html;
+}
+
+function addNcItem(){
+  const title=document.getElementById('nc-title-inp').value.trim();
+  const date=document.getElementById('nc-date-inp').value;
+  if(!title||!date){alert('নাম ও তারিখ দিতে হবে!');return}
+  const page=(curNotifTab==='read'&&document.getElementById('nc-page-inp'))?document.getElementById('nc-page-inp').value.trim():'';
+  if(!D.ncItems)D.ncItems={};
+  if(!D.ncItems[curNotifTab])D.ncItems[curNotifTab]=[];
+  D.ncItems[curNotifTab].push({title,date,page,id:Date.now().toString()});
+  saveData();renderNotifCenter();
+}
+
+function delNcItem(idx){
+  if(!D.ncItems||!D.ncItems[curNotifTab])return;
+  D.ncItems[curNotifTab].splice(idx,1);saveData();renderNotifCenter();
+}
+
+function checkNotifCenter(){
+  if(!D.ncItems)return;
+  const todayKey=getDayKey(0);
+  let msgs=[];
+  Object.entries(NC_TYPES).forEach(([type,nc])=>{
+    const items=(D.ncItems[type])||[];
+    items.filter(it=>it.date===todayKey).forEach(it=>{
+      msgs.push(nc.msg(it.title));
+    });
+  });
+  if(msgs.length>0){
+    const msg=msgs[0];
+    showNotif('আজকের জন্য!',msg);
+    speakMsg(msg);
+    if('Notification' in window&&Notification.permission==='granted'){
+      msgs.forEach(m=>new Notification('StudyTrack',{body:m,icon:'icon-192.png'}));
+    }
+  }
+}
+
+// ═══════════════ SYLLABUS ═══════════════
+let selectedSylColor='#38bdf8';
+
+function selectSylColor(hex,el){
+  selectedSylColor=hex;
+  document.getElementById('syl-sub-color').value=hex;
+  document.querySelectorAll('.syl-color-opt').forEach(e=>e.style.border='2px solid transparent');
+  el.style.border='2px solid #fff';
+}
+
+function saveSyllabusSubject(){
+  const name=document.getElementById('syl-sub-name').value.trim();
+  if(!name){document.getElementById('syl-sub-name').focus();return}
+  const hex=document.getElementById('syl-sub-color').value||'#38bdf8';
+  if(!D.syllabus)D.syllabus=[];
+  const id='sub_'+Date.now();
+  D.syllabus.push({id,name,hex,topics:[]});
+  saveData();
+  SUBJECTS=getSUBJECTS();
+  document.getElementById('syl-sub-name').value='';
+  closeModal('modal-add-syllabus-subject');
+  renderSyllabus();
+  showNotif(T('সাবজেক্ট যোগ হয়েছে!','Subject added!'),name);
+}
+
+function openAddTopicModal(subId){
+  document.getElementById('syl-topic-subject-id').value=subId;
+  const sub=(D.syllabus||[]).find(s=>s.id===subId);
+  document.getElementById('syl-topic-modal-title').textContent=(sub?sub.name:'')+' — টপিক যোগ করো';
+  document.getElementById('syl-topic-name').value='';
+  openModal('modal-add-syllabus-topic');
+}
+
+function saveSyllabusTopic(){
+  const name=document.getElementById('syl-topic-name').value.trim();
+  if(!name){document.getElementById('syl-topic-name').focus();return}
+  const subId=document.getElementById('syl-topic-subject-id').value;
+  const sub=(D.syllabus||[]).find(s=>s.id===subId);
+  if(!sub){closeModal('modal-add-syllabus-topic');return}
+  sub.topics.push({id:'top_'+Date.now(),name});
+  saveData();
+  document.getElementById('syl-topic-name').value='';
+  closeModal('modal-add-syllabus-topic');
+  renderSyllabus();
+}
+
+function delSyllabusSubject(subId){
+  if(!confirm(T('সাবজেক্ট ও সব টপিক মুছে যাবে! নিশ্চিত?','Delete subject and all topics?')))return;
+  D.syllabus=(D.syllabus||[]).filter(s=>s.id!==subId);
+  saveData();SUBJECTS=getSUBJECTS();
+  // reset curSubject if needed
+  if(!SUBJECTS[curSubject]){
+    const keys=Object.keys(SUBJECTS);
+    curSubject=keys.length?keys[0]:'physics';
+  }
+  renderSyllabus();
+}
+
+function delSyllabusTopic(subId,topId){
+  const sub=(D.syllabus||[]).find(s=>s.id===subId);
+  if(!sub)return;
+  sub.topics=sub.topics.filter(t=>t.id!==topId);
+  saveData();renderSyllabus();
+}
+
+function renderSyllabus(){
+  SUBJECTS=getSUBJECTS();
+  const el=document.getElementById('syllabus-list');if(!el)return;
+  if(!D.syllabus||D.syllabus.length===0){
+    el.innerHTML=`<div class="empty"><div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><p>এখনো কোনো সাবজেক্ট নেই।<br>উপরে "+ সাবজেক্ট" চেপে শুরু করো!</p></div>`;
+    return;
+  }
+  el.innerHTML=D.syllabus.map(sub=>`
+    <div class="card" style="border-left:3px solid ${sub.hex}">
+      <div class="card-head">
+        <div class="card-badge" style="background:${sub.hex}22;color:${sub.hex};border:1px solid ${sub.hex}33">${esc(sub.name)}</div>
+        <div class="card-chapter" style="color:${sub.hex}">${esc(sub.name)}</div>
+        <div style="display:flex;gap:0.4rem">
+          <button onclick="openAddTopicModal('${sub.id}')" style="background:${sub.hex}22;color:${sub.hex};border:1px solid ${sub.hex}33;border-radius:8px;padding:0.25rem 0.55rem;font-size:0.68rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif">+ টপিক</button>
+          <button class="card-del" onclick="delSyllabusSubject('${sub.id}')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></button>
+        </div>
+      </div>
+      <div style="padding:0 0.9rem 0.85rem">
+        ${sub.topics.length===0
+          ? `<div style="font-size:0.72rem;color:var(--muted);padding:0.4rem 0">কোনো টপিক নেই। "+ টপিক" চেপে যোগ করো।</div>`
+          : `<div style="display:flex;flex-wrap:wrap;gap:0.4rem">${sub.topics.map(top=>`
+              <div style="display:flex;align-items:center;gap:0.3rem;background:var(--s2);border:1px solid var(--border);border-radius:8px;padding:0.28rem 0.6rem">
+                <span style="font-size:0.75rem;font-weight:600;color:var(--text)">${esc(top.name)}</span>
+                <button onclick="delSyllabusTopic('${sub.id}','${top.id}')" style="background:none;border:none;color:var(--dim);cursor:pointer;padding:0;line-height:1;display:flex;align-items:center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+              </div>`).join('')}</div>`
+        }
+      </div>
+    </div>`).join('');
+}
+
+// Populate subject dropdowns from syllabus
+function populateSubjectDropdowns(){
+  SUBJECTS=getSUBJECTS();
+  const entries=Object.entries(SUBJECTS);
+  // Target modal
+  const inpSub=document.getElementById('inp-subject');
+  if(inpSub){
+    const prev=inpSub.value;
+    inpSub.innerHTML=entries.length
+      ? entries.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('')
+      : `<option value="">-- সিলেবাসে সাবজেক্ট যোগ করো --</option>`;
+    if(entries.find(([k])=>k===prev))inpSub.value=prev;
+    populateChapterDropdown();
+  }
+  // Log modal
+  const logSub=document.getElementById('log-subject');
+  if(logSub){
+    const prev2=logSub.value;
+    logSub.innerHTML=entries.length
+      ? entries.map(([k,v])=>`<option value="${k}">${esc(v.name)}</option>`).join('')
+      : `<option value="">-- সিলেবাসে সাবজেক্ট যোগ করো --</option>`;
+    if(entries.find(([k])=>k===prev2))logSub.value=prev2;
+    populateLogChapterDropdown();
+  }
+}
+
+function populateChapterDropdown(){
+  const subId=document.getElementById('inp-subject').value;
+  const sel=document.getElementById('inp-chapter-select');if(!sel)return;
+  const sub=(D.syllabus||[]).find(s=>s.id===subId);
+  if(!sub||!sub.topics||sub.topics.length===0){
+    sel.innerHTML=`<option value="">-- টপিক নেই --</option>`;
+    return;
+  }
+  sel.innerHTML=`<option value="">-- টপিক বেছে নাও --</option>`+sub.topics.map(t=>`<option value="${esc(t.name)}">${esc(t.name)}</option>`).join('');
+  sel.onchange=function(){if(this.value)document.getElementById('inp-chapter').value=this.value};
+}
+
+function populateLogChapterDropdown(){
+  const subId=document.getElementById('log-subject').value;
+  const sel=document.getElementById('log-chapter-select');if(!sel)return;
+  const sub=(D.syllabus||[]).find(s=>s.id===subId);
+  if(!sub||!sub.topics||sub.topics.length===0){
+    sel.innerHTML=`<option value="">-- টপিক নেই --</option>`;
+    return;
+  }
+  sel.innerHTML=`<option value="">-- টপিক বেছে নাও --</option>`+sub.topics.map(t=>`<option value="${esc(t.name)}">${esc(t.name)}</option>`).join('');
+  sel.onchange=function(){if(this.value)document.getElementById('log-chapter').value=this.value};
+}
+
+// ═══════════════ NAVIGATION ═══════════════
+const PAGE_TITLES={
+  syllabus:'সিলেবাস', targets:'টার্গেট সেট করো',
+  daily:'ডেইলি চ্যালেঞ্জ', graph:'পড়ার গ্রাফ',
+  timemgmt:'টাইম ম্যানেজমেন্ট', notifcenter:'নোটিফিকেশন',
+  profile:'প্রোফাইল', settings:'সেটিংস'
+};
+function goHome(){
+  document.querySelectorAll('.sub-page').forEach(el=>el.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+  document.getElementById('page-home').classList.add('active');
+  document.getElementById('section-header').style.display='none';
+  document.getElementById('fab').style.display='none';
+  currentPage='home';
+  renderHomeProfile();
+}
+function showPage(p){
+  if(p==='home'){goHome();return;}
+  document.querySelectorAll('.sub-page').forEach(el=>el.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+  const pageEl=document.getElementById('page-'+p);
+  if(!pageEl)return;
+  pageEl.classList.add('active');
+  // Show section header with back button
+  const hdr=document.getElementById('section-header');
+  hdr.style.display='flex';
+  document.getElementById('sec-header-title').textContent=PAGE_TITLES[p]||p;
+  currentPage=p;
+  const fab=document.getElementById('fab');
+  if(p==='targets'){fab.style.display='flex';fab.style.background='linear-gradient(135deg,#38bdf8,#0ea5e9)';fab.style.color='#000'}
+  else if(p==='graph'){fab.style.display='flex';fab.style.background='linear-gradient(135deg,#fbbf24,#f59e0b)';fab.style.color='#000'}
+  else{fab.style.display='none'}
+  if(p==='targets'){SUBJECTS=getSUBJECTS();renderTargets()}
+  if(p==='syllabus')renderSyllabus();
+  if(p==='profile')renderProfilePage();
+  if(p==='daily')renderDaily();
+  if(p==='graph')renderGraph();
+  if(p==='timemgmt')renderTimeMgmt();
+  if(p==='notifcenter'){renderNotifCenter();switchNotifTab(curNotifTab)}
+}
+function renderHomeProfile(){
+  const profiles=loadProfiles();
+  const activeId=getActiveProfileId();
+  const active=profiles.find(p=>p.id===activeId);
+  const nameEl=document.getElementById('home-profile-name');
+  if(active&&nameEl)nameEl.textContent=active.name||'Study Track';
+}
+function openFab(){
+  if(currentPage==='syllabus')openModal('modal-add-syllabus-subject');
+  else if(currentPage==='targets'){populateSubjectDropdowns();openModal('modal-target')}
+  else if(currentPage==='graph'){populateSubjectDropdowns();openModal('modal-log')}
+}
+
+// ═══════════════ SUB-PAGE ═══════════════
+function openSubPage(targetId, type){
+  const t=D.targets.find(x=>x.id===targetId);if(!t)return;
+  subPageCtx={targetId,type};
+  document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+  document.getElementById('fab').style.display='none';
+  SUBJECTS=getSUBJECTS();
+  const sub=SUBJECTS[t.subject]||{name:t.subject,color:'#94a3b8',hex:'#94a3b8'};
+
+  if(type==='note'){
+    document.getElementById('note-panel-title').textContent=T('নোট','Note');
+    document.getElementById('note-panel-sub').textContent=t.chapter+' · '+sub.name;
+    document.getElementById('note-editor').value=t.note||'';
+    document.getElementById('subpage-note').classList.add('active');
+  } else if(type==='file'){
+    document.getElementById('file-panel-title').textContent=T('ফাইল','Files');
+    document.getElementById('file-panel-sub').textContent=t.chapter+' · '+sub.name;
+    renderLinkList('file',t);
+    document.getElementById('subpage-file').classList.add('active');
+  } else if(type==='class'){
+    document.getElementById('class-panel-title').textContent=T('ক্লাস','Classes');
+    document.getElementById('class-panel-sub').textContent=t.chapter+' · '+sub.name;
+    renderLinkList('class',t);
+    document.getElementById('subpage-class').classList.add('active');
+  }
+}
+
+function closeSubPage(type){
+  document.getElementById('subpage-'+type).classList.remove('active');
+  subPageCtx=null;
+  // Go back to targets
+  document.getElementById('page-targets').classList.add('active');
+  document.getElementById('fab').style.display='flex';
+  document.getElementById('fab').style.background='linear-gradient(135deg,#38bdf8,#0ea5e9)';
+  document.getElementById('fab').style.color='#000';
+}
+
+// ═══════════════ NOTE ═══════════════
+function saveNoteAndClose(){
+  if(!subPageCtx)return;
+  const t=D.targets.find(x=>x.id===subPageCtx.targetId);
+  if(t){t.note=document.getElementById('note-editor').value;saveData()}
+  closeSubPage('note');
+}
+function shareNote(){
+  const text=document.getElementById('note-editor').value.trim();
+  if(!text){alert(T('নোট খালি আছে!','Note is empty!'));return}
+  if(navigator.share){
+    navigator.share({title:T('আমার নোট','My Note'),text}).catch(()=>{});
+  } else {
+    navigator.clipboard.writeText(text).then(()=>showNotif(T('কপি হয়েছে!','Copied!'),T('নোট ক্লিপবোর্ডে কপি হয়েছে।','Note copied to clipboard.')));
+  }
+}
+
+// ═══════════════ LINKS (FILE/CLASS) ═══════════════
+function renderLinkList(type, t){
+  const listEl=document.getElementById(type+'-list');
+  const links=(t[type+'s'])||[];
+  if(links.length===0){
+    listEl.innerHTML=`<div class="empty"><div class="ico">${type==='file'?'<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>':'<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>'}</div><p>${T('কোনো '+( type==='file'?'ফাইল':'ক্লাস')+' নেই।','No '+(type==='file'?'files':'classes')+' yet.')}</p></div>`;
+    return;
+  }
+  listEl.innerHTML=links.map((l,i)=>`
+    <div class="link-item">
+      <div class="link-item-head">
+        <div class="link-icon" style="background:${type==='file'?'rgba(251,191,36,0.12)':'rgba(248,113,113,0.12)'}">${type==='file'?'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>':'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>'}</div>
+        <div class="link-title">${esc(l.title)}</div>
+        <div class="link-actions">
+          <button class="link-btn link-open" onclick="openLink('${l.url}')" title="খোলো"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></button>
+          <button class="link-btn link-share" onclick="shareLink('${esc(l.title)}','${l.url}')" title="শেয়ার">⤴</button>
+          <button class="link-btn link-del" onclick="delLink('${type}',${i})" title="মুছো"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+function addLink(type){
+  if(!subPageCtx)return;
+  const title=document.getElementById(type+'-title-inp').value.trim();
+  const url=document.getElementById(type+'-url-inp').value.trim();
+  if(!title||!url){alert(T('টাইটেল ও লিংক দুটোই দিতে হবে।','Both title and URL are required.'));return}
+  const t=D.targets.find(x=>x.id===subPageCtx.targetId);
+  if(!t[type+'s'])t[type+'s']=[];
+  t[type+'s'].push({title,url});
+  saveData();
+  document.getElementById(type+'-title-inp').value='';
+  document.getElementById(type+'-url-inp').value='';
+  renderLinkList(type,t);
+}
+
+function delLink(type,i){
+  if(!subPageCtx)return;
+  const t=D.targets.find(x=>x.id===subPageCtx.targetId);
+  t[type+'s'].splice(i,1);saveData();renderLinkList(type,t);
+}
+
+function openLink(url){
+  window.open(url,'_blank');
+}
+
+function shareLink(title,url){
+  const text=`${title}\n${url}`;
+  if(navigator.share){
+    navigator.share({title,url,text}).catch(()=>{});
+  } else {
+    navigator.clipboard.writeText(text).then(()=>showNotif(T('কপি হয়েছে!','Copied!'),T('লিংক কপি হয়েছে।','Link copied.')));
+  }
+}
+
+// ═══════════════ TARGETS ═══════════════
+function renderSubjectTabs(){
+  SUBJECTS=getSUBJECTS();
+  const el=document.getElementById('subject-tabs');
+  const entries=Object.entries(SUBJECTS);
+  if(entries.length===0){
+    el.innerHTML=`<div style="font-size:0.75rem;color:var(--muted);padding:0.3rem 0.2rem">
+      কোনো সাবজেক্ট নেই — 
+      <span style="color:var(--physics);cursor:pointer;font-weight:700" onclick="showPage('syllabus')">সিলেবাস তৈরি করো →</span>
+    </div>`;
+    return;
+  }
+  if(!SUBJECTS[curSubject]){curSubject=entries[0][0]}
+  el.innerHTML=entries.map(([k,v])=>{
+    const count=D.targets.filter(t=>t.subject===k).length;
+    return`<div class="sub-tab ${k===curSubject?'active':''}"
+      style="${k===curSubject?`background:rgba(255,255,255,0.06);color:#fff;border-color:${v.hex}`:''}"
+      onclick="switchSubject('${k}')">${esc(v.name)}${count>0?` (${count})`:''}</div>`;
+  }).join('');
+}
+function switchSubject(s){curSubject=s;renderTargets()}
+
+function renderTargets(){
+  SUBJECTS=getSUBJECTS();
+  renderSubjectTabs();
+  const list=document.getElementById('targets-list');
+  if(!SUBJECTS[curSubject]){
+    list.innerHTML=`<div class="empty">
+      <div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+      <p style="line-height:1.9">সিলেবাসে এখনো কোনো সাবজেক্ট নেই।<br>
+      <button onclick="showPage('syllabus')" style="background:linear-gradient(135deg,#38bdf8,#0ea5e9);color:#000;border:none;border-radius:10px;padding:0.5rem 1.1rem;font-size:0.78rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;margin-top:0.6rem">
+        সিলেবাস তৈরি করো →
+      </button></p>
+    </div>`;
+    return;
+  }
+  const filtered=D.targets.filter(t=>t.subject===curSubject);
+  if(filtered.length===0){
+    list.innerHTML=`<div class="empty"><div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><p>${esc(SUBJECTS[curSubject].name)} ${T('এর কোনো টার্গেট নেই।','has no targets.')}<br>${T('+ বাটন চেপে যোগ করো!','Tap + to add!')}</p></div>`;
+    return;
+  }
+  list.innerHTML='';
+  Object.keys(swIntervals).forEach(k=>{if(k.startsWith('cd_')||k.startsWith('sw_')||k.startsWith('tt_')){clearInterval(swIntervals[k]);delete swIntervals[k]}});
+  filtered.forEach(t=>{list.appendChild(buildCard(t));startCountdown(t);if(t.sw.running)startSW(t)});
+}
+
+function buildCard(t){
+  SUBJECTS=getSUBJECTS();
+  const sub=SUBJECTS[t.subject]||{name:t.subject,color:'#94a3b8',hex:'#94a3b8'};
+  const steps=getSteps(t);
+  const total=steps.length||1;
+  const done=steps.filter(s=>t.steps[s.id]&&t.steps[s.id].done).length;
+  const pct=Math.round(done/total*100);
+  const C=2*Math.PI*24;
+  const offset=C-(pct/100)*C;
+  const ringColor=pct===100?'#4ade80':pct>=60?sub.hex:pct>=40?'#fbbf24':'#f472b6';
+  const C2=2*Math.PI*24;
+  const sl=SL();
+
+  // Count note/file/class items
+  const noteHas=t.note&&t.note.trim().length>0;
+  const fileCount=(t.files||[]).length;
+  const classCount=(t.classs||[]).length;
+
+  const card=document.createElement('div');
+  card.className='card'+(pct===100?' complete':'');
+  card.id='card-'+t.id;
+  card.innerHTML=`
+    <div class="card-head">
+      <div class="card-badge" style="background:${sub.hex}22;color:${sub.hex};border:1px solid ${sub.hex}33">${sub.name}</div>
+      <div class="card-chapter">${esc(t.chapter)}</div>
+      <button class="card-del" onclick="delTarget('${t.id}')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></button>
+    </div>
+
+    <div class="card-body">
+      <div class="ring-wrap">
+        <svg width="54" height="54" viewBox="0 0 54 54">
+          <circle class="ring-bg" cx="27" cy="27" r="23"/>
+          <circle class="ring-fill" id="ring-${t.id}" cx="27" cy="27" r="23" stroke="${ringColor}" stroke-dasharray="${C}" stroke-dashoffset="${offset}"/>
+        </svg>
+        <div class="ring-pct" id="rpct-${t.id}" style="color:${ringColor}">${pct}%</div>
+      </div>
+      <div class="steps" id="steps-${t.id}">
+        ${getSteps(t).map(s=>stepRowNew(t,s)).join('')}
+        <div class="steps-add-row"><input class="steps-add-inp" id="sadd-${t.id}" placeholder="নতুন ধাপ লিখো..." id="sadd-${t.id}"/><button class="steps-add-btn" onclick="addStep('${t.id}')">+ যোগ</button></div>
+      </div>
+    </div>
+
+    <div class="revision-row">
+      <div class="rev-label">${T('রিভিশন:','Revision:')}</div>
+      <button class="rev-btn rev-minus" onclick="changeRev('${t.id}',-1)">−</button>
+      <div class="rev-count" id="rev-${t.id}">${t.revision||0}</div>
+      <button class="rev-btn rev-plus" onclick="changeRev('${t.id}',1)">+</button>
+      <div style="font-size:0.65rem;color:var(--muted)">${T('বার','times')}</div>
+    </div>
+
+    <div class="timers-section">
+      <div class="timer-row">
+        <div class="timer-box">
+          <div class="t-label">${T('কাউন্টডাউন','Countdown')}</div>
+          <div class="t-val cd" id="cd-${t.id}">${t.deadline?'...':T('সেট করোনি','Not set')}</div>
+        </div>
+        <div class="timer-box">
+          <div class="t-label">${T('স্টপওয়াচ','Stopwatch')}</div>
+          <div class="t-val sw" id="sw-${t.id}">${fmtSW(t.sw.elapsed)}</div>
+          <div class="sw-btns">
+            <button class="sw-btn ${t.sw.running?'sw-p':'sw-s'}" id="swb-${t.id}" onclick="toggleSW('${t.id}')">${t.sw.running?T('⏸ থামাও','⏸ Pause'):T('▶ শুরু','▶ Start')}</button>
+            <button class="sw-btn sw-r" onclick="resetSW('${t.id}')">↺</button>
+          </div>
+        </div>
+      </div>
+      <div class="target-timer-box">
+        <div class="t-label" style="margin-bottom:0.4rem">${T('টার্গেট টাইমার','Target Timer')} <span style="font-size:0.55rem;color:var(--muted)">${T('(সময় শেষে এলার্ম বাজবে)','(alarm when done)')}</span></div>
+        <div class="tt-row">
+          <div class="t-val" id="tt-${t.id}" style="color:var(--math);font-size:0.9rem;font-family:'Hind Siliguri',sans-serif">${fmtTT(t.tt||0)}</div>
+          <input class="tt-inp" type="number" id="tt-inp-${t.id}" min="1" max="180" placeholder="মিনিট" value="${t.ttMin||25}" />
+          <button class="tt-btn ${t.ttRunning?'tt-stop':'tt-start'}" id="tt-btn-${t.id}" onclick="toggleTT('${t.id}')">${t.ttRunning?T('⏸ থামাও','⏸ Pause'):(t.tt&&t.tt>0&&!t.ttRunning)?T('▶ চালু','▶ Resume'):T('▶ শুরু','▶ Start')}</button>
+          <button class="tt-btn tt-reset" onclick="resetTT('${t.id}')">↺</button>
+        </div>
+      </div>
+    </div>
+
+    ${!t.deadline?`<div class="dl-row"><input class="dl-inp" type="datetime-local" id="dl-${t.id}"/><button class="dl-set" onclick="setDL('${t.id}')">${T('সময় সেট করো','Set Deadline')}</button></div>`:''}
+
+    <div class="card-options">
+      <div class="opt-btn" onclick="openSubPage('${t.id}','note')">
+        <span class="opt-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>${T('নোট','Note')}${noteHas?`<span class="opt-badge"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 12 4 10"/></svg></span>`:''}
+      </div>
+      <div class="opt-btn" onclick="openSubPage('${t.id}','file')">
+        <span class="opt-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></span>${T('ফাইল','Files')}${fileCount>0?`<span class="opt-badge">${fileCount}</span>`:''}
+      </div>
+      <div class="opt-btn" onclick="openSubPage('${t.id}','class')">
+        <span class="opt-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>${T('ক্লাস','Classes')}${classCount>0?`<span class="opt-badge">${classCount}</span>`:''}
+      </div>
+    </div>
+
+    <div class="done-banner">${T('১০০% সম্পন্ন! অভিনন্দন!','100% Done! Congratulations!')}</div>
+  `;
+
+  if(t.ttRunning&&t.ttEnd){
+    startTTFromCard(t);
+  }
+  return card;
+}
+
+function stepRow(t,k,sl){return ''} // legacy - unused
+// Cumulative-rounding: every step's % = round(100*(i+1)/n) - round(100*i/n).
+// This guarantees ALL step percentages always sum to EXACTLY 100, no matter
+// how many steps exist (3, 5, 7, 11, anything).
+function stepPct(i,total){
+  if(total<=0)return 0;
+  return Math.round(100*(i+1)/total)-Math.round(100*i/total);
+}
+function stepRowNew(t,step){
+  const s=t.steps[step.id]||{done:false,count:0};
+  const val=s.count>0?s.count+step.unit:T('সেট','Set');
+  const steps=getSteps(t);
+  const total=steps.length||1;
+  const idx=steps.findIndex(x=>x.id===step.id);
+  const pct=stepPct(idx,total);
+  // Long-press (or right-click) on the row opens the step options modal
+  // (delete + position chooser). Inline ↑ ↓ ✕ buttons are gone now.
+  const press=`onpointerdown="stepPressStart(event,'${t.id}','${step.id}')" onpointermove="stepPressMove(event)" onpointerup="stepPressEnd()" onpointercancel="stepPressEnd()" onpointerleave="stepPressEnd()" oncontextmenu="event.preventDefault();openStepOpts('${t.id}','${step.id}')"`;
+  return`<div class="step-row ${s.done?'done':''}" id="sr-${t.id}-${step.id}" ${press} style="user-select:none;-webkit-user-select:none;-webkit-touch-callout:none">
+    <div class="step-check" onclick="stepClickGuard(()=>toggleStep('${t.id}','${step.id}'))">${s.done?'<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 12 4 10"/></svg>':''}</div>
+    <div class="step-name" onclick="stepClickGuard(()=>toggleStep('${t.id}','${step.id}'))" style="flex:1">${esc(step.label)}</div>
+    <span class="step-pct">${pct}%</span>
+    <div class="step-val" onclick="stepClickGuard(()=>openCount('${t.id}','${step.id}','${step.unit}'))">${val}</div>
+  </div>`;
+}
+
+// ─── Long-press detection ───
+let pressTimer=null, pressStartXY=null, suppressNextClick=false;
+function stepPressStart(ev,tid,sid){
+  pressStartXY={x:ev.clientX,y:ev.clientY};
+  if(pressTimer)clearTimeout(pressTimer);
+  pressTimer=setTimeout(()=>{
+    pressTimer=null;
+    suppressNextClick=true;
+    if(navigator.vibrate)try{navigator.vibrate(35)}catch(e){}
+    openStepOpts(tid,sid);
+  },480);
+}
+function stepPressMove(ev){
+  if(!pressTimer||!pressStartXY)return;
+  const dx=ev.clientX-pressStartXY.x, dy=ev.clientY-pressStartXY.y;
+  if(dx*dx+dy*dy>100){clearTimeout(pressTimer);pressTimer=null}
+}
+function stepPressEnd(){
+  if(pressTimer){clearTimeout(pressTimer);pressTimer=null}
+  pressStartXY=null;
+}
+function stepClickGuard(fn){
+  if(suppressNextClick){suppressNextClick=false;return}
+  fn();
+}
+
+// ─── Step options modal: delete + reorder by position ───
+let stepOptsCtx=null;
+function openStepOpts(tid,sid){
+  const t=D.targets.find(x=>x.id===tid);if(!t)return;
+  const steps=getSteps(t);
+  const idx=steps.findIndex(s=>s.id===sid);if(idx<0)return;
+  const step=steps[idx];
+  stepOptsCtx={tid,sid};
+  document.getElementById('step-opts-title').textContent=step.label+' — '+T('অপশন','Options');
+  document.getElementById('step-opts-info').textContent=T('বর্তমান অবস্থান: ','Current position: ')+(idx+1)+' / '+steps.length;
+  const sel=document.getElementById('step-opts-pos');
+  sel.innerHTML='';
+  for(let i=0;i<steps.length;i++){
+    const opt=document.createElement('option');
+    opt.value=String(i);
+    opt.textContent=(i+1)+T('তম','')+(i===idx?' ('+T('বর্তমান','current')+')':'');
+    if(i===idx)opt.selected=true;
+    sel.appendChild(opt);
+  }
+  openModal('modal-step-opts');
+}
+function applyStepPos(){
+  if(!stepOptsCtx)return;
+  const t=D.targets.find(x=>x.id===stepOptsCtx.tid);if(!t){closeModal('modal-step-opts');stepOptsCtx=null;return}
+  if(!t.customSteps)t.customSteps=[...DEFAULT_STEPS];
+  const newIdx=parseInt(document.getElementById('step-opts-pos').value);
+  const fromIdx=t.customSteps.findIndex(s=>s.id===stepOptsCtx.sid);
+  if(fromIdx<0||isNaN(newIdx)||newIdx===fromIdx){closeModal('modal-step-opts');stepOptsCtx=null;return}
+  const moved=t.customSteps.splice(fromIdx,1)[0];
+  t.customSteps.splice(newIdx,0,moved);
+  saveData();refreshSteps(t);updateRing(t);
+  closeModal('modal-step-opts');stepOptsCtx=null;
+}
+function confirmDelStep(){
+  if(!stepOptsCtx)return;
+  if(!confirm(T('এই ধাপ মুছে ফেলবে?','Delete this step?')))return;
+  const ctx=stepOptsCtx;
+  closeModal('modal-step-opts');stepOptsCtx=null;
+  delStep(ctx.tid,ctx.sid);
+}
+
+function toggleStep(id,k){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  if(!t.steps[k])t.steps[k]={done:false,count:0};
+  t.steps[k].done=!t.steps[k].done;saveData();
+  refreshSteps(t);
+  updateRing(t);
+  const steps=getSteps(t);
+  const done=steps.filter(s=>t.steps[s.id]&&t.steps[s.id].done).length;
+  const card=document.getElementById('card-'+id);
+  if(card){if(done===steps.length)card.classList.add('complete');else card.classList.remove('complete')}
+}
+
+function refreshSteps(t){
+  const el=document.getElementById('steps-'+t.id);if(!el)return;
+  el.innerHTML=getSteps(t).map(s=>stepRowNew(t,s)).join('')
+    +`<div class="steps-add-row"><input class="steps-add-inp" id="sadd-${t.id}" placeholder="${T('নতুন ধাপ লিখো...','New step name...')}"/><button class="steps-add-btn" onclick="addStep('${t.id}')">+ ${T('যোগ','Add')}</button></div>`;
+}
+
+function addStep(tid){
+  const inp=document.getElementById('sadd-'+tid);if(!inp)return;
+  const label=inp.value.trim();if(!label)return;
+  const t=D.targets.find(x=>x.id===tid);if(!t)return;
+  if(!t.customSteps)t.customSteps=[...DEFAULT_STEPS];
+  const newId='step_'+Date.now();
+  t.customSteps.push({id:newId,label,unit:'টি'});
+  t.steps[newId]={done:false,count:0};
+  saveData();refreshSteps(t);updateRing(t);inp.value='';
+}
+
+function delStep(tid,sid){
+  const t=D.targets.find(x=>x.id===tid);if(!t)return;
+  if(!t.customSteps)t.customSteps=[...DEFAULT_STEPS];
+  t.customSteps=t.customSteps.filter(s=>s.id!==sid);
+  saveData();refreshSteps(t);updateRing(t);
+  const steps=getSteps(t);
+  const done=steps.filter(s=>t.steps[s.id]&&t.steps[s.id].done).length;
+  const card=document.getElementById('card-'+tid);
+  if(card){if(done===steps.length&&steps.length>0)card.classList.add('complete');else card.classList.remove('complete')}
+}
+
+function moveStep(tid,sid,dir){
+  const t=D.targets.find(x=>x.id===tid);if(!t)return;
+  if(!t.customSteps)t.customSteps=[...DEFAULT_STEPS];
+  const idx=t.customSteps.findIndex(s=>s.id===sid);
+  if(idx<0)return;
+  const newIdx=idx+dir;
+  if(newIdx<0||newIdx>=t.customSteps.length)return;
+  const tmp=t.customSteps[idx];
+  t.customSteps[idx]=t.customSteps[newIdx];
+  t.customSteps[newIdx]=tmp;
+  saveData();refreshSteps(t);
+}
+
+function updateRing(t){
+  const steps=getSteps(t);
+  const total=steps.length||1;
+  // Sum up the per-step percentages (cumulative-rounded) for completed steps,
+  // so the ring matches what's shown next to each step and totals exactly 100%
+  // when every step is done — for any number of steps.
+  let pct=0;
+  steps.forEach((s,i)=>{ if(t.steps[s.id]&&t.steps[s.id].done) pct+=stepPct(i,total); });
+  const C=2*Math.PI*24;
+  const sub=SUBJECTS[t.subject];
+  const color=pct===100?'#4ade80':pct>=60?sub.hex:pct>=40?'#fbbf24':'#f472b6';
+  const el=document.getElementById('ring-'+t.id);
+  const pel=document.getElementById('rpct-'+t.id);
+  if(el){el.setAttribute('stroke-dashoffset',C-(pct/100)*C);el.setAttribute('stroke',color)}
+  if(pel){pel.textContent=pct+'%';pel.style.color=color}
+}
+
+function changeRev(id, delta){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  t.revision=Math.max(0,(t.revision||0)+delta);saveData();
+  const el=document.getElementById('rev-'+id);if(el)el.textContent=t.revision;
+}
+
+function openCount(id,k,unit){
+  countCtx={id,k,unit:unit||'টি'};
+  const t=D.targets.find(x=>x.id===id);
+  const step=getSteps(t).find(s=>s.id===k);
+  document.getElementById('count-title').textContent=(step?step.label:k)+' — '+T('সংখ্যা লিখো','Type count');
+  document.getElementById('count-inp').value=(t.steps[k]||{}).count||'';
+  openModal('modal-count');
+}
+function saveCount(){
+  if(!countCtx)return;
+  const t=D.targets.find(x=>x.id===countCtx.id);
+  if(!t.steps[countCtx.k])t.steps[countCtx.k]={done:false,count:0};
+  t.steps[countCtx.k].count=parseInt(document.getElementById('count-inp').value)||0;
+  saveData();
+  refreshSteps(t);
+  closeModal('modal-count');countCtx=null;
+}
+
+function setDL(id){
+  const t=D.targets.find(x=>x.id===id);
+  const v=document.getElementById('dl-'+id).value;
+  if(!v)return;t.deadline=v;saveData();renderTargets();
+}
+
+function saveTarget(){
+  const selChapter=document.getElementById('inp-chapter-select').value;
+  const typedChapter=document.getElementById('inp-chapter').value.trim();
+  const chapter=typedChapter||selChapter;
+  if(!chapter){document.getElementById('inp-chapter').focus();return}
+  SUBJECTS=getSUBJECTS();
+  const subjectId=document.getElementById('inp-subject').value;
+  if(!subjectId){alert(T('আগে সিলেবাসে সাবজেক্ট যোগ করো!','Add a subject in Syllabus first!'));return}
+  D.targets.push({
+    id:Date.now().toString(),
+    subject:subjectId,
+    chapter,
+    deadline:document.getElementById('inp-deadline').value||null,
+    steps:Object.fromEntries(DEFAULT_STEPS.map(s=>[s.id,{done:false,count:0}])),
+    sw:{running:false,elapsed:0,startedAt:0},
+    revision:0,note:'',files:[],classs:[],
+    ttMin:25,tt:0,ttRunning:false,ttEnd:null
+  });
+  saveData();closeModal('modal-target');renderTargets();
+}
+
+function delTarget(id){
+  if(!confirm(T('এই টার্গেট মুছবো?','Delete this target?')))return;
+  clearInterval(swIntervals['sw_'+id]);clearInterval(swIntervals['cd_'+id]);clearInterval(ttIntervals[id]);
+  D.targets=D.targets.filter(x=>x.id!==id);saveData();renderTargets();
+}
+
+// ═══ Countdown ═══
+function startCountdown(t){
+  if(!t.deadline)return;
+  updateCD(t);
+  clearInterval(swIntervals['cd_'+t.id]);
+  swIntervals['cd_'+t.id]=setInterval(()=>{const tgt=D.targets.find(x=>x.id===t.id);if(!tgt){clearInterval(swIntervals['cd_'+t.id]);return}updateCD(tgt)},1000);
+}
+function updateCD(t){
+  const el=document.getElementById('cd-'+t.id);if(!el||!t.deadline)return;
+  const diff=new Date(t.deadline)-Date.now();
+  if(diff<=0){el.textContent=T('শেষ!','Done!');el.classList.add('urgent');return}
+  const d=Math.floor(diff/86400000),h=Math.floor((diff%86400000)/3600000),m=Math.floor((diff%3600000)/60000),s=Math.floor((diff%60000)/1000);
+  el.textContent=d>0?`${d}${T('দি','d')} ${p(h)}:${p(m)}:${p(s)}`:`${p(h)}:${p(m)}:${p(s)}`;
+  if(diff<3600000)el.classList.add('urgent');
+}
+
+// ═══ Stopwatch ═══
+function startSW(t){
+  clearInterval(swIntervals['sw_'+t.id]);t.sw.startedAt=Date.now();
+  swIntervals['sw_'+t.id]=setInterval(()=>{
+    const tgt=D.targets.find(x=>x.id===t.id);
+    if(!tgt||!tgt.sw.running){clearInterval(swIntervals['sw_'+t.id]);return}
+    const el=document.getElementById('sw-'+t.id);
+    if(el)el.textContent=fmtSW(tgt.sw.elapsed+(Date.now()-tgt.sw.startedAt));
+  },500);
+}
+function toggleSW(id){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  if(t.sw.running){
+    t.sw.elapsed+=Date.now()-t.sw.startedAt;t.sw.running=false;
+    clearInterval(swIntervals['sw_'+id]);
+    const btn=document.getElementById('swb-'+id);if(btn){btn.textContent=T('▶ শুরু','▶ Start');btn.className='sw-btn sw-s'}
+    const el=document.getElementById('sw-'+id);if(el)el.textContent=fmtSW(t.sw.elapsed);
+  }else{
+    t.sw.running=true;startSW(t);
+    const btn=document.getElementById('swb-'+id);if(btn){btn.textContent=T('⏸ থামাও','⏸ Pause');btn.className='sw-btn sw-p'}
+  }
+  saveData();
+}
+function resetSW(id){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  t.sw.running=false;t.sw.elapsed=0;t.sw.startedAt=0;
+  clearInterval(swIntervals['sw_'+id]);
+  const el=document.getElementById('sw-'+id);if(el)el.textContent='00:00:00';
+  const btn=document.getElementById('swb-'+id);if(btn){btn.textContent=T('▶ শুরু','▶ Start');btn.className='sw-btn sw-s'}
+  saveData();
+}
+
+// ═══ Target Timer ═══
+function toggleTT(id){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  if(t.ttRunning){
+    // PAUSE — save remaining time, stop interval
+    const remaining=t.ttEnd?Math.max(0,t.ttEnd-Date.now()):0;
+    t.ttRunning=false;
+    t.ttEnd=null;
+    t.tt=remaining; // save paused remaining
+    clearInterval(ttIntervals[id]);
+    const el=document.getElementById('tt-'+id);if(el)el.textContent=fmtTT(remaining);
+    const btn=document.getElementById('tt-btn-'+id);if(btn){btn.textContent=T('শুরু','Start');btn.className='tt-btn tt-start'}
+    saveData();
+  } else {
+    // START or RESUME
+    const mins=parseInt(document.getElementById('tt-inp-'+id).value)||25;
+    // If paused with remaining time, resume from there; else fresh start
+    const resumeMs=(t.tt&&t.tt>0)?t.tt:(mins*60*1000);
+    t.ttMin=mins;t.ttRunning=true;
+    t.ttEnd=Date.now()+resumeMs;
+    t.tt=resumeMs;
+    saveData();startTTFromCard(t);
+    const btn=document.getElementById('tt-btn-'+id);if(btn){btn.textContent=T('থামাও','Stop');btn.className='tt-btn tt-stop'}
+  }
+}
+function startTTFromCard(t){
+  clearInterval(ttIntervals[t.id]);
+  ttIntervals[t.id]=setInterval(()=>{
+    const tgt=D.targets.find(x=>x.id===t.id);
+    if(!tgt||!tgt.ttRunning){clearInterval(ttIntervals[t.id]);return}
+    const remaining=tgt.ttEnd-Date.now();
+    const el=document.getElementById('tt-'+tgt.id);
+    if(remaining<=0){
+      clearInterval(ttIntervals[t.id]);
+      tgt.ttRunning=false;tgt.tt=0;saveData();
+      if(el)el.textContent=fmtTT(0);
+      const btn=document.getElementById('tt-btn-'+tgt.id);if(btn){btn.textContent=T('শুরু','Start');btn.className='tt-btn tt-start'}
+      fireAlarm(tgt.chapter);
+    } else {
+      if(el)el.textContent=fmtTT(remaining);
+    }
+  },500);
+}
+function resetTT(id){
+  const t=D.targets.find(x=>x.id===id);if(!t)return;
+  t.ttRunning=false;t.ttEnd=null;t.tt=0;
+  clearInterval(ttIntervals[id]);
+  const el=document.getElementById('tt-'+id);if(el)el.textContent=fmtTT(0);
+  const btn=document.getElementById('tt-btn-'+id);if(btn){btn.textContent=T('শুরু','Start');btn.className='tt-btn tt-start'}
+  saveData();
+}
+function fmtTT(ms){
+  const total=Math.max(0,Math.floor(ms/1000));
+  const m=Math.floor(total/60),s=total%60;
+  return`${p(m)}:${p(s)}`;
+}
+
+// ═══ ALARM ═══
+function fireAlarm(chapter){
+  document.getElementById('alarm-text').textContent=T('সময় শেষ!','Time\'s Up!');
+  document.getElementById('alarm-sub').textContent=(chapter||'')+' '+T('এর টাইমার শেষ হয়েছে!','timer is done!');
+  document.getElementById('alarm-overlay').classList.add('show');
+  // Beep using Web Audio
+  try{
+    const ctx=new (window.AudioContext||window.webkitAudioContext)();
+    function beep(freq,dur,delay){
+      const o=ctx.createOscillator();const g=ctx.createGain();
+      o.connect(g);g.connect(ctx.destination);
+      o.frequency.value=freq;o.type='sine';
+      g.gain.setValueAtTime(0.6,ctx.currentTime+delay);
+      g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+delay+dur);
+      o.start(ctx.currentTime+delay);o.stop(ctx.currentTime+delay+dur+0.05);
+    }
+    for(let i=0;i<5;i++){beep(880,0.2,i*0.4);beep(1100,0.15,i*0.4+0.25)}
+  }catch(e){}
+  // Also vibrate
+  if(navigator.vibrate)navigator.vibrate([300,100,300,100,300]);
+}
+function stopAlarm(){
+  document.getElementById('alarm-overlay').classList.remove('show');
+}
+
+// ═══════════════ DAILY ═══════════════
+function getDayKey(offset){const d=new Date();d.setDate(d.getDate()+(offset||0));return d.toISOString().slice(0,10)}
+function changeDay(dir){curDayOffset+=dir;renderDaily()}
+function renderDaily(){
+  const key=getDayKey(curDayOffset);
+  const d=new Date();d.setDate(d.getDate()+curDayOffset);
+  const daysBN=['রবি','সোম','মঙ্গল','বুধ','বৃহ','শুক্র','শনি'];
+  const daysEN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const mBN=['জানু','ফেব্রু','মার্চ','এপ্রি','মে','জুন','জুলা','আগস্ট','সেপ্টে','অক্টো','নভে','ডিসে'];
+  const mEN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const days=lang==='bn'?daysBN:daysEN;const months=lang==='bn'?mBN:mEN;
+  const extra=curDayOffset===0?T(' (আজ)',' (Today)'):curDayOffset===-1?T(' (গতকাল)',' (Yesterday)'):curDayOffset===1?T(' (আগামীকাল)',' (Tomorrow)'):'';
+  document.getElementById('daily-date-label').textContent=`${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}${extra}`;
+  const tasks=D.daily[key]||[];
+  const list=document.getElementById('daily-list');
+  if(tasks.length===0){list.innerHTML=`<div class="empty"><div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div><p>${T('কোনো টাস্ক নেই।','No tasks yet.')}</p></div>`;return}
+  list.innerHTML=tasks.map((task,i)=>`
+    <div class="daily-item ${task.done?'done':''}">
+      <div class="daily-cb" onclick="toggleDailyTask('${key}',${i})">${task.done?'<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 12 4 10"/></svg>':''}</div>
+      <div class="daily-text">${esc(task.text)}</div>
+      <button class="daily-del" onclick="delDailyTask('${key}',${i})"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></button>
+    </div>`).join('');
+}
+function addDailyTask(){
+  const inp=document.getElementById('daily-inp');const text=inp.value.trim();if(!text)return;
+  const key=getDayKey(curDayOffset);if(!D.daily[key])D.daily[key]=[];
+  D.daily[key].push({text,done:false});saveData();inp.value='';renderDaily();
+}
+function toggleDailyTask(key,i){D.daily[key][i].done=!D.daily[key][i].done;saveData();renderDaily()}
+function delDailyTask(key,i){D.daily[key].splice(i,1);saveData();renderDaily()}
+
+// ═══════════════ GRAPH ═══════════════
+function renderGraph(){
+  const totalMin=D.studyLogs.reduce((s,l)=>s+l.minutes,0);
+  const todayKey=getDayKey(0);
+  const todayMin=D.studyLogs.filter(l=>l.date===todayKey).reduce((s,l)=>s+l.minutes,0);
+  document.getElementById('stat-grid').innerHTML=`
+    <div class="stat-box"><div class="stat-num" style="color:var(--physics)">${Math.floor(totalMin/60)}h ${totalMin%60}m</div><div class="stat-lbl">${T('মোট পড়েছি','Total Study')}</div></div>
+    <div class="stat-box"><div class="stat-num" style="color:var(--green)">${Math.floor(todayMin/60)}h ${todayMin%60}m</div><div class="stat-lbl">${T('আজকে','Today')}</div></div>
+    <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">${D.targets.length}</div><div class="stat-lbl">${T('মোট টার্গেট','Targets')}</div></div>
+    <div class="stat-box"><div class="stat-num" style="color:var(--bangla)">${D.targets.filter(t=>{const st=getSteps(t);return st.length>0&&st.every(s=>t.steps[s.id]&&t.steps[s.id].done)}).length}</div><div class="stat-lbl">${T('সম্পন্ন','Done')}</div></div>
+  `;
+  const daysBN=['রবি','সোম','মঙ্গল','বুধ','বৃহ','শুক্র','শনি'];
+  const daysEN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const dayLabels=lang==='bn'?daysBN:daysEN;
+  const days=[],hrs=[];
+  for(let i=6;i>=0;i--){
+    const key=getDayKey(-i);const d=new Date();d.setDate(d.getDate()-i);
+    days.push(dayLabels[d.getDay()]);
+    hrs.push(+(D.studyLogs.filter(l=>l.date===key).reduce((s,l)=>s+l.minutes,0)/60).toFixed(1));
+  }
+  const canvas=document.getElementById('study-chart');
+  const ctx2=canvas.getContext('2d');
+  canvas.width=(canvas.offsetWidth||300)*window.devicePixelRatio;
+  canvas.height=160*window.devicePixelRatio;
+  ctx2.scale(window.devicePixelRatio,window.devicePixelRatio);
+  const W=canvas.offsetWidth||300,H=160,pad=28;
+  const barW=(W-pad*2)/7*0.55,gap=(W-pad*2)/7;
+  const maxH=Math.max(...hrs,1);
+  ctx2.clearRect(0,0,W,H);
+  const isLight=document.body.classList.contains('light');
+  ctx2.strokeStyle=isLight?'rgba(0,0,0,0.05)':'rgba(255,255,255,0.05)';ctx2.lineWidth=1;
+  for(let i=0;i<=4;i++){const y=pad+(H-pad*2)*(1-i/4);ctx2.beginPath();ctx2.moveTo(pad,y);ctx2.lineTo(W-pad,y);ctx2.stroke()}
+  days.forEach((day,i)=>{
+    const x=pad+i*gap+(gap-barW)/2;const bh=hrs[i]>0?(H-pad*2)*(hrs[i]/maxH):2;const y=H-pad-bh;
+    const grad=ctx2.createLinearGradient(0,y,0,H-pad);
+    grad.addColorStop(0,'rgba(56,189,248,0.9)');grad.addColorStop(1,'rgba(56,189,248,0.2)');
+    ctx2.fillStyle=grad;ctx2.beginPath();ctx2.roundRect(x,y,barW,bh,3);ctx2.fill();
+    ctx2.fillStyle=isLight?'rgba(71,85,105,0.9)':'rgba(100,116,139,0.9)';ctx2.font=`bold 9px Hind Siliguri`;ctx2.textAlign='center';
+    ctx2.fillText(day,x+barW/2,H-7);
+    if(hrs[i]>0){ctx2.fillStyle=isLight?'rgba(30,41,59,0.9)':'rgba(241,245,249,0.8)';ctx2.font=`bold 8px Hind Siliguri`;ctx2.fillText(hrs[i]+'h',x+barW/2,y-3)}
+  });
+  const logEl=document.getElementById('study-log');
+  if(D.studyLogs.length===0){logEl.innerHTML=`<div class="empty" style="padding:1.2rem"><div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div><p>${T('কোনো লগ নেই।','No logs.')}<br>${T('+ বাটন চেপে লগ করো!','Tap + to log!')}</p></div>`;return}
+  logEl.innerHTML=[...D.studyLogs].map((l,realIdx)=>({l,realIdx})).reverse().slice(0,20).map(({l,realIdx})=>{
+    const SUBS=getSUBJECTS();
+    const sub=SUBS[l.subject]||{hex:'#94a3b8',name:l.subject};
+    return`<div class="log-item">
+      <div class="log-dot" style="background:${sub.hex}"></div>
+      <div class="log-info"><div class="log-title-t">${esc(l.chapter||sub.name)}</div><div class="log-sub">${sub.name} · ${l.date}</div></div>
+      <div class="log-time">${Math.floor(l.minutes/60)>0?Math.floor(l.minutes/60)+'h ':''}${l.minutes%60}m</div>
+      <button onclick="delLog(${realIdx})" style="background:rgba(248,113,113,0.1);color:var(--red);border:1px solid rgba(248,113,113,0.2);border-radius:7px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;margin-left:0.3rem"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>`;
+  }).join('');
+}
+function delLog(idx){
+  D.studyLogs.splice(idx,1);
+  saveData();renderGraph();
+}
+function saveLog(){
+  const minutes=parseInt(document.getElementById('log-minutes').value)||0;if(minutes<=0)return;
+  const selChap=document.getElementById('log-chapter-select').value;
+  const typedChap=document.getElementById('log-chapter').value.trim();
+  D.studyLogs.push({subject:document.getElementById('log-subject').value,chapter:typedChap||selChap,minutes,date:getDayKey(0),ts:Date.now()});
+  saveData();closeModal('modal-log');renderGraph();
+}
+
+// ═══════════════ NOTIFICATIONS ═══════════════
+function showNotif(title,msg){
+  document.getElementById('notif-title').textContent=title;
+  document.getElementById('notif-msg').textContent=msg;
+  const b=document.getElementById('notif-banner');b.classList.add('show');
+  setTimeout(()=>b.classList.remove('show'),5000);
+}
+function closeNotif(){document.getElementById('notif-banner').classList.remove('show')}
+function fireReminder(){
+  const s=D.settings;if(!s.notifEnabled)return;
+  const msg=s.notifMsg||T('এখন পড়তে বসো!','Time to study!');
+  showNotif(T('পড়ার সময়!','Study Time!'),msg);
+  if(s.voiceEnabled)speakMsg(s.voiceMsg||msg);
+  if('Notification' in window&&Notification.permission==='granted')
+    new Notification(T('StudyTrack','StudyTrack'),{body:msg,icon:'icon-192.png'});
+}
+function rescheduleNotif(){
+  D.settings.notifInterval=parseInt(document.getElementById('notif-interval').value)||60;
+  saveData();if(notifTimer)clearInterval(notifTimer);
+  notifTimer=setInterval(fireReminder,(D.settings.notifInterval)*60*1000);
+}
+function speakMsg(msg){
+  if(!('speechSynthesis' in window))return;
+  window.speechSynthesis.cancel();
+  const utt=new SpeechSynthesisUtterance(msg);
+  utt.lang=lang==='bn'?'bn-BD':'en-US';utt.rate=0.9;utt.pitch=1;
+  window.speechSynthesis.speak(utt);
+}
+function testVoice(){speakMsg(document.getElementById('voice-msg').value.trim()||T('এখন পড়তে বসো!','Time to study!'))}
+
+// ═══════════════ MODALS ═══════════════
+function openModal(id){
+  document.getElementById(id).classList.add('open');
+  if(id==='modal-add-syllabus-subject'){
+    selectedSylColor='#38bdf8';
+    document.getElementById('syl-sub-color').value='#38bdf8';
+    document.querySelectorAll('.syl-color-opt').forEach((e,i)=>{e.style.border=i===0?'2px solid #fff':'2px solid transparent'});
+  }
+  if(id==='modal-create-profile'){
+    // Only reset if not editing
+    const editId=document.getElementById('profile-edit-id').value;
+    if(!editId){
+      document.getElementById('profile-modal-title').textContent='নতুন প্রোফাইল';
+      document.getElementById('profile-name-inp').value='';
+      document.getElementById('profile-class-inp').value='';
+      document.getElementById('profile-goal-inp').value='';
+      pickedAvatar='';
+      document.getElementById('profile-avatar-val').value='';
+      document.getElementById('avatar-file-inp').value='';
+      const prev=document.getElementById('avatar-preview');
+      if(prev) prev.innerHTML='<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>';
+    }
+  }
+}
+function closeModal(id){document.getElementById(id).classList.remove('open')}
+function closeModalOut(e,id){if(e.target===document.getElementById(id))closeModal(id)}
+
+// ═══════════════ UTILS ═══════════════
+function p(n){return String(n).padStart(2,'0')}
+function fmtSW(ms){const t=Math.floor(ms/1000);return`${p(Math.floor(t/3600))}:${p(Math.floor((t%3600)/60))}:${p(t%60)}`}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+
+// ═══════════════ INIT ═══════════════
+initProfiles(); // must run first — loads correct profile data
+initSettings();
+const tom=new Date(Date.now()+86400000);
+const tomStr=new Date(tom-tom.getTimezoneOffset()*60000).toISOString().slice(0,16);
+document.getElementById('inp-deadline').value=tomStr;
+document.getElementById('daily-inp').addEventListener('keydown',e=>{if(e.key==='Enter')addDailyTask()});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&e.target.classList.contains('steps-add-inp')){
+    const id=e.target.id.replace('sadd-','');
+    addStep(id);
+  }
+});
+renderHomeProfile();renderDaily();
+if('Notification' in window)Notification.requestPermission();
+rescheduleNotif();
+setTimeout(()=>showNotif(T('স্বাগতম!','Welcome!'),T('StudyTrack v3 — প্রস্তুত!','StudyTrack v3 — Ready!')),1500);
+checkNotifCenter();
+setInterval(checkNotifCenter,3600000);
+scheduleAlarms();
+// Register service worker immediately
+if('serviceWorker' in navigator){
+  const swCode = `const CACHE='studytrack-v2';
+const ASSETS=['./'];
+self.addEventListener('install',e=>{
+  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS).catch(()=>{})));
+  self.skipWaiting();
+});
+self.addEventListener('activate',e=>{
+  e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));
+  self.clients.claim();
+});
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET')return;
+  e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(res=>{
+    const clone=res.clone();
+    caches.open(CACHE).then(c=>c.put(e.request,clone));
+    return res;
+  }).catch(()=>caches.match('./'))));
+});`;
+  const blob = new Blob([swCode], {type:'application/javascript'});
+  const swUrl = URL.createObjectURL(blob);
+  navigator.serviceWorker.register(swUrl, {scope:'./'})
+    .then(reg=>{
+      console.log('SW registered via blob');
+      URL.revokeObjectURL(swUrl);
+    })
+    .catch(err=>console.log('SW error',err));
+}
+let deferredPrompt=null;
+window.addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault();
+  deferredPrompt=e;
+  // Show install banner after 3 seconds
+  setTimeout(()=>{
+    if(deferredPrompt){
+      const banner=document.getElementById('pwa-install-banner');
+      if(banner)banner.style.display='flex';
+    }
+  },3000);
+});
+window.addEventListener('appinstalled',()=>{
+  const banner=document.getElementById('pwa-install-banner');
+  if(banner)banner.style.display='none';
+  deferredPrompt=null;
+});
+
+function toggleMoreMenu(){
+  const m = document.getElementById('more-menu');
+  m.style.display = m.style.display === 'none' ? 'block' : 'none';
+}
+function closeMoreMenu(){
+  const m = document.getElementById('more-menu');
+  if(m) m.style.display = 'none';
+}
+// Close more menu when clicking outside
+document.addEventListener('click', function(e){
+  const btn = document.getElementById('home-more-btn');
+  const menu = document.getElementById('more-menu');
+  if(menu && btn && !btn.contains(e.target) && !menu.contains(e.target)){
+    menu.style.display = 'none';
+  }
+});
+
+</script>
+
+<!-- PWA Install Banner -->
+<div id="pwa-install-banner" style="display:none;position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%);width:calc(100% - 2rem);max-width:420px;z-index:400;background:linear-gradient(135deg,#1a1f2e,#0d1117);border:1px solid rgba(56,189,248,0.35);border-radius:16px;padding:0.9rem 1.1rem;box-shadow:0 8px 32px rgba(0,0,0,0.6);align-items:center;gap:0.8rem;animation:slideUp 0.4s ease">
+  <div class="pwa-install-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+  <div style="flex:1">
+    <div style="font-size:0.85rem;font-weight:700;color:#f1f5f9">StudyTrack ইন্সটল করো</div>
+    <div style="font-size:0.7rem;color:#64748b;margin-top:2px">হোম স্ক্রিনে অ্যাপ হিসেবে যোগ করো</div>
+  </div>
+  <button onclick="installPWA()" style="background:linear-gradient(135deg,#38bdf8,#0ea5e9);color:#000;border:none;border-radius:10px;padding:0.5rem 1rem;font-size:0.78rem;font-weight:700;cursor:pointer;font-family:'Hind Siliguri',sans-serif;white-space:nowrap">ইন্সটল</button>
+  <button onclick="document.getElementById('pwa-install-banner').style.display='none'" style="background:none;border:none;color:#64748b;cursor:pointer;padding:0.2rem;display:flex;align-items:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+</div>
+@keyframes slideUp{from{opacity:0;transform:translateX(-50%) translateY(20px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+</body>
+</html>
